@@ -22,26 +22,7 @@ At what point does data become narrative and how can we, as designers, facilitat
 
 ## Course Outline
 
-See spreadsheet appendix for an expanded view of classes and assignments.
-
-| Class #	| Date	| Title	| Assignment	|
-|:--	|:--	|:--	|:--	|
-| 1	| 1/27/2016	| Foundations	|
-| 2	| 2/3/2016	| Data Fundamentals	| Measure something in the real world	|
-| 3	| 2/10/2016	| Visualizing for Communication	| 45 ways to Communicate 2 Quantities	|
-| 4	| 2/17/2016	| Mapping Space	| Project #1 Proposal	|
-| 5	| 2/24/2016	| Project #1: Visualizing for Communication	|
-| 6	| 3/2/2016	| Programmatic Data Manipulation	|
-| 7	| 3/9/2016	| Visualization and Perception	| Project #2 Proposal	|
-| 8	| 3/16/2016	| Mapping Hierarchies and Time	| Project #2 Data	|
-| -	| 3/23/2016	| Spring Break	|
-| 9	| 3/30/2016	| Interaction	| Project #2 Visual Explorations	|
-| 10	| 4/6/2016	| Project #2: Visualizing for Exploration	|
-| 11	| 4/13/2016	| Mapping Culture	| Project #3 Proposal	|
-| 12	| 4/20/2016	| Databases	| Project #3 Data	|
-| 13	| 4/27/2016	| Mapping Relations	| Project #3 Visual Explorations	|
-| 14	| 5/4/2016	| Workshop	|
-| 15	| 5/11/2016	| Project #3	|
+See the syllabus  (.pdf) for a complete outline.
 
 
 ## Learning Outcomes
@@ -134,10 +115,10 @@ There are no required readings for this class.
 | Item							| %		|
 |:---							|:---	|
 | Participation/Attendance	| 10%	|
-| Dataviz Example	| 15%	|
-| Project #1					| 15%	|
-| Project #2 (Midterm)		| 25%	|
-| Project #3 (Final)		| 35%	|
+| Dataviz Example	| 10%	|
+| Project #1					| 20%	|
+| Project #2 (Midterm)		| 30%	|
+| Project #3 (Final)		| 30%	|
 
 
 ## Grading Standards
