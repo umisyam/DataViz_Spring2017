@@ -13,6 +13,7 @@ var name = "dude";
 var age = 25;
 var height = 6.2;
 var work = function() {
+  // THIS IS INSIDE A FUNCTION
   for(var i = 0; i < week.lengh; i++) {
     goTo('office');
   }
@@ -26,7 +27,7 @@ var keyValue = {
   // more on this later on Ch.3 - Ararys vs Objects
 };
 
-// In Java/Processing, that would be translated as:
+/* In Java/Processing, that would be translated as: */
 // String name = "dude";
 // int age = 25;
 // float height = 6.2;
@@ -115,4 +116,3 @@ function brew() {
 /*------------------------------------------------*/
 // In C++ you would go through Pre-processing, Compiling and Linking to run the program,
 // in JavaScript you save the file and you're done.
-
