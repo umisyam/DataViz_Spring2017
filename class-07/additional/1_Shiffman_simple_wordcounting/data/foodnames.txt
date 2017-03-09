@@ -1,0 +1,423 @@
+A
+
+asparagus
+apples
+avacado
+alfalfa
+acorn squash  (NOPE: this is actually an ‘S’)
+almond
+arugala
+artichoke
+applesauce
+asian noodles (NOPE, an ‘N’)
+antelope
+ahi tuna (NOPE: this is actually a ‘T’)
+albacore tuna
+Apple juice
+Avocado roll
+B
+
+Bruscetta
+bacon
+black beans
+bagels
+baked beans
+BBQ
+bison
+barley
+beer
+bisque
+bluefish
+bread
+broccoli
+buritto
+babaganoosh
+C
+
+Cabbage
+cake
+carrots
+carne asada
+celery
+cheese
+chicken
+catfish
+chips
+chocolate
+chowder
+clams
+coffee
+cookies
+corn
+cupcakes
+crab
+curry
+cereal
+chimichanga
+D
+
+dates
+dips
+duck
+dumplings
+donuts
+E
+
+eggs
+enchilada
+eggrolls
+English muffins
+edimame
+eel sushi
+F
+
+fajita
+falafel
+fish  (might be too vague)
+franks
+fondu
+French toast
+French dip
+G
+
+Garlic
+ginger
+gnocchi
+goose
+granola
+grapes
+green beans
+Guancamole
+gumbo
+grits
+Graham crackers
+H
+
+ham
+halibut
+hamburger (and cheeseburgers and bacon cheeseburgers)
+honey
+huenos rancheros
+hash browns
+hot dogs
+haiku roll
+hummus
+I
+
+ice cream
+Irish stew
+Indian food
+Italian bread
+J
+
+jambalaya
+jelly / jam
+jerky
+jalapeño
+K
+
+kale
+kabobs
+ketchup
+kiwi
+kidney beans
+kingfish
+L
+
+lobster
+Lamb
+Linguine
+Lasagna
+M
+
+Meatballs
+Moose
+Milk
+Milkshake
+N
+
+Noodles
+O
+
+Ostrich
+P
+
+Pizza
+Pepperoni
+Porter
+Pancakes
+Q
+
+Quesadilla
+Quiche
+R
+
+Reuben
+S
+
+Spinach
+Spaghetti
+T
+
+Tater tots
+Toast
+U
+
+? (any ideas)
+V
+
+Venison
+W
+
+Waffles
+Wine
+Walnuts
+X – WILDCARD DAY!
+
+Y
+
+Yogurt
+Z
+
+Ziti
+Zucchini
+
+A
+a la carte..... a la mode..... acorn squash..... adapting old recipes..... afternoon tea..... agar agar..... aioli..... air ships & zeppelins..... airline chicken..... airline meals (inflight catering)..... Alabama state foods..... Alaska state foods..... algae..... Alice's Restaurant..... Allemande sauce..... allspice..... almonds..... alphabet soup..... ambigu..... ambrosia..... Amelia Earhart..... American bison..... American chop suey..... American foods..... American service..... ammonia cookies..... amuse bouche..... anadama bread..... Ancient Egypt..... Ancient Mesopotamia..... Ancient Rome..... Andrew Wyeth..... angel food..... angels on horseback..... Anglo-Saxon/Norman Britain..... animal crackers..... Anne Frank..... ants on a log..... aoili..... apees (AP cookies)..... appetizers..... apple butter..... apple crisp..... apple pie..... apple pie & cheddar cheese..... apple sauce..... apple sauce cakes & cookies..... apple slump..... apples..... Apollo space mission foods..... apricots..... Arizona state foods..... Arkansas state foods..... Arthur Miller..... artichokes..... artisan breads..... arugula..... Asian-American food..... Asian-American salad dressing..... asparagus..... aspic..... astronaut fruitcake..... au gratin..... August Janssen..... Australian & New Zealand foods..... Augustus Jackson..... Aunt Sammy..... automats..... avgolemono..... avocados, mole & guacamole..... Aztec food
+B
+BBQ..... BLTs..... baba (babka)..... Babe Ruth..... baby food..... bacon..... bagels..... bagna cauda..... baguettes..... bake sales..... baked Alaska..... baked beans: Boston style & cowboy style..... baker's dozen..... Bakewell pudding & Bakewell tart..... baking papers..... baking soda & baking powder..... baking soda/powder biscuits..... baklava..... balsamic vinegar..... banana bread..... banana cream pie..... banana splits..... bananas..... banh mi..... bannock..... barbeque..... Barbra Streisand...... baseball concessions..... bastilla..... batter puddings..... Bavarian cream..... bean dip..... bean sprouts..... bear..... bear's paw..... bearnaise sauce..... beaten biscuits..... Beatles (music group)..... bechamel..... beef..... beef fondue..... beef olives..... beef Stroganoff..... beef tea..... beef Wellington..... beefalo..... beer..... beestings..... beet cake..... beets..... beggar's chicken..... beignets..... Belgian waffles..... Benjamin Franklin..... benne seed wafers..... bergamot..... Beryl Markham..... "best if used by" (freshness dating)...... BEVERAGES..... Bible foods: New Testament..... biestings..... bigos..... Billy bi..... Billy tea..... Biosphere 2..... Bird's nest pudding..... Bird's nest soup..... birthday cake..... biscotti & mandelbrot..... biscuits..... biscuits & gravy..... bishop's bread..... bismarks..... bison..... bisque..... bistros..... black & blue steak..... black & white cookies..... black bottom pie..... black cake..... black cow..... Black Forest cake..... black pudding..... blackeyed peas...... Blackout cake.... blancmange..... blondies..... blood as food..... blood oranges..... blood pudding..... bloody Mary..... blueberries..... blueberry muffins..... boar's head..... boiled eggs..... boiling..... bologna candy..... booya..... bordelaise sauce..... borscht..... Boston baked beans..... Boston brown bread..... Boston cream pie..... bouillon..... boxing ring concessions (1920s)..... braising..... brawn..... BREAD..... bread & butter pickles..... bread bowls..... bread boxes..... bread etiquette..... bread pans..... bread pudding..... breadless sandwiches..... breakfast..... breakfast cereal..... breakfast cereal inventory..... bridge mix..... brioche..... brittle..... broccoli..... broccolini..... broth..... brown & serve bacon..... brown betty..... brown sugar..... brownies & blondies..... brunch..... Brunswick stew..... bruschetta..... Brussels sprouts..... buche de Noel..... Buckeye candy..... buckwheat..... Buddah's hand..... buffalo..... Buffalo Bill..... buffets..... bundt cake..... bunuelos..... burgoo..... burritos..... butler service..... butter..... buttermilk..... buttercream frosting..... butterless, eggless, milkless cake..... butterscotch..... Byzantine bread
+
+C
+cabinet pudding...... Caesar salad..... cafeterias..... CAKE..... cake & pudding charms..... cake decorations..... cake mixes..... cake pops..... calamari..... calas..... California gold rush cuisine..... California mission foods..... California onion dip..... California rolls..... California state foods..... callaloo..... calzones..... campaillou..... Cambell's tomato soup..... Canadian foods..... canapes..... candle salad..... CANDY..... candy butchers..... candy corn..... canned spaghetti..... cannoli..... Cape Breton pork pies..... capers..... cappuccino..... Captain Cook's ship food..... caramel cake..... caramel candy..... caramel creme..... cardoons..... Careme..... Carnation Instant Breakfast..... carpetbag steak..... carrageen..... carrot ale..... carrot cake..... carrots..... cashews..... cassareep..... cassava..... casseroles..... catering..... catsup..... cathead biscuits..... cauliflower..... celery..... Celtic foodways..... ceviche..... challah bread..... Charles Dickens..... Charles Lindberg..... charley roosh..... Charlotte..... Charlotte Russe..... Chateaubriand..... chayote..... checkerboard cake..... cheese logs (aka cheese balls)..... cheese puffs..... cheese sauce..... cheese straws..... cheesecake..... Cheez Whiz..... chefs..... chef's salad..... chef's tables..... chef's uniforms..... cherries..... cherries jubilee..... Cheshire pork pie..... chess pie..... chewing gum..... chex mix..... chia..... chiboust..... chicken..... chicken a la king..... chicken & waffles..... chicken burgers..... chicken cacciatora..... chicken chasseur..... chicken Cordon Bleu..... chicken corn soup (PA Dutch)..... chicken Francese..... chicken fried steak..... "chicken in every pot"..... chicken Kiev..... chicken Marengo..... chicken nuggets..... chicken Parm..... chicken salad..... chicken sandwiches (fast food)..... chicken tartare..... chicken Tetrazzini..... chicken tikka masala..... chicken Vesuvio..... chicken Wellington..... chickenfurters..... chicory..... chickpeas..... chiffon cake..... chiffon pie..... children's menus..... chile peppers..... chiles rellenos..... chili con carne..... chimichangas..... Chinese artichokes..... Chinese chicken salad..... Chinese food..... Chinese New Year..... Chinese pie..... Chinese-USA restaurants..... Chippewa foodways..... Cho Cho ice cream bars..... CHOCOLATE..... chocolate beet cake..... chocolate cake..... chocolate chip cookies..... chocolate covered ants..... chocolate covered graham crackers..... chocolate covered pretzels..... chocolate cream..... chocolate custard..... chocolate fondue..... chocolate gravy..... chocolate ice cream..... chocolate mayonnaise cake..... chocolate milk..... chocolate molten lava cake..... chocolate mousse (& white chocolate mousse)..... chocolate pie..... chocolate pudding..... Chocolate Snaps (Nabisco)..... chocolate truffles..... chocolate wine..... choko..... chop suey..... chop suey cake..... choux..... chow mein..... chowder..... CHRISTMAS..... Christmas cookies..... Christmas dinner menus..... Christmas goose..... Christmas pudding..... Chumash foodways..... churros..... ciabatta..... cider..... Cinco de Mayo..... cinnamon rolls..... cinnamon toast...... cioppino..... citron..... city chicken..... Civil War-era foods..... clafoutis..... clam bakes..... clams..... clams casino..... classic French menus & courses..... clover leaf rolls..... club sandwich..... Cobb salad..... cobbler..... cock-a-leekie..... cocktail parties..... cocktails..... cocoa..... cocoa fudge..... coconuts..... coffee cake..... coffee houses..... coffee in America..... coffee substitutes..... cola cakes.... colcannon..... cold shape..... cold soup..... coleslaw..... collard greens..... colomba..... colonial American bakeries..... colonial American college dining..... colonial American egg preservation..... colonial American foods..... colonial American taverns..... Colorado state foods..... comfits..... comfort food..... confit..... concessions..... confetti..... Connecticut state foods..... consomme..... conversation hearts..... conversions (historic oven temps, weights & measures)..... cook book clubs..... COOK BOOKS..... COOKIES..... cookie exchanges..... cookie tables..... Cookery and Food Exhibition [London, 1885]..... cooking schools..... Copha..... Coq au vin..... coronation chicken..... cordials..... corn..... corn bread..... corn dogs..... corn pudding..... corn starch..... corn syrup..... corned beef..... corned beef & cabbage..... corned beef hash..... Cornish pasties..... cornmeal mush..... costmary (alecost)...... cottage pie..... cotton candy..... country captain chicken..... course meals (why/when started)..... courses vs covers..... couscous..... cowboy cooking..... cowpeas..... crab apples..... crab cakes..... crab rangoon..... crab dip..... crab soup..... crabs..... Cracker Jack..... crackers..... cranberries..... cranberry bread..... crayfish & crawfish..... crazy cake..... cream cheese..... cream cheese brownies..... cream cheese frosting..... cream puffs..... creamed onions..... creme anglaise..... creme brulee..... creme caramel..... cremini..... crepes & pancakes..... croissants..... cronuts..... croque monsieur & madame..... crocquembouche..... croquettes..... crosiers..... crosnes..... croutons..... croziers..... crudites..... crullers..... crumb cake..... crumpets..... cube steak...... culotte steak..... cupcake papers..... cupcakes..... curry..... custard..... cyber cafes
+
+D
+Dagwood sandwich..... dandelions..... Danish..... dates...... Day of the Dead/Dia de los Muertos..... deep fried turkey..... deep frying..... Delaware state foods..... delicatessens..... Delmonico's menus, 1830s..... demi-glace..... Denver sandwiches..... Des Moines squash..... dessert..... deviled eggs..... devils food..... devils on horseback..... Dick Gregory Dickens (Charles)..... diet bread..... diet cookbooks..... dietary guidelines (history, USA)..... diet soda..... dill..... dill pickles..... dim sum..... Diners Club..... dinner..... Dinty Moore..... diplomat pudding..... dips..... dirt cake..... divinity..... Dobos torte..... doggie bags..... dolly mixtures..... dolma..... donkers..... dormice..... double butter..... Doughnut Day..... doughnut holes..... doughnuts..... dozen eggs..... dragees..... dream bars..... dressing & stuffing..... dried eggs..... duck..... duck a l'orange..... dump cake..... dumplings..... Duncan Hines..... Dutch oven
+
+E
+early bird specials..... earthquake cake..... Easter..... Easter candy..... Easter eggs..... Eccles cake..... eclairs..... edamame..... Educator crackers..... egg & lemon sauce..... egg creams..... egg foo yung..... egg nog..... egg rolls..... egg sizes..... eggplant..... EGGS..... eggs benedict..... eggs in a basket..... eggs sold by the dozen..... eggshells as clarifying agents..... eighty-sixed..... elbow macaroni..... Eleanor Roosevelt..... election cake..... Elena Zelayeta..... elephant ears..... elephant garlic..... Ellis Island canteens..... empanadas..... enchiladas..... English foods..... English muffins..... English service..... English snow..... English trifle..... escargot..... escabeche..... Espagnole..... everything bagel..... extreme deep frying
+
+F
+fajitas..... FAMOUS PEOPLE FOOD FAVORITES..... fanchonettes..... fast food..... fastnachts..... Feast of the Seven Fishes..... fettuccine Alfredo..... fiddlehead ferns..... Fig Newtons..... fines herbes..... finger steaks..... first cooks..... first recipes..... first recipes on the Internet..... fish & chips..... five spice..... flan..... flapjacks..... flatbreads..... floating island..... Florida state foods..... flour..... flower pot bread..... flower water..... focaccia..... foie gras..... fondant..... fondue..... fonduta..... food dating (freshness)..... food history education (masters & doctoral programs)..... food service (beginnings)..... food trucks..... forks..... forks & knives, table manners..... fortune cookies..... Fourth of July..... Frank McNamara...... frankfurters..... free bread in USA restaurant..... free lunch..... French bread..... French cremes/creams..... French dressing..... French foods..... French fries..... French ice cream..... French onion soup..... French Revolution foods..... French service..... French 75..... French toast..... French vanilla ice cream..... Friday franks (tuna dogs)..... fried cheese (aka mozzarella sticks)..... fried chicken..... fried ice cream..... fried rice..... Frisbie pies..... fritters..... frogs & frog legs..... "from scratch"..... frosting & icing..... frosting mixes..... frozen pie crust..... frozen pizza..... FRUIT..... fruit cake..... fruit cocktail..... fruit leather..... fruit or vegetable?..... fruit salad..... fruit soup..... Fruit Stripe gum..... frumenty..... fry bread..... frying..... fu..... fudge..... funnel cakes
+
+G
+galangal..... galette..... garden party menus..... Garibaldi biscuits..... garlic..... garlic bread..... garlic knots..... garlic soup..... garum & liquamem..... gastrique..... gazpacho..... gateau St. Honore..... gelatin..... gelato..... Gemini mission space foods..... General Tso's chicken..... generic (no frills) foods..... geese at Christmas..... genoise..... Georgia state foods..... German chocolate cake..... German foods..... Gibraltar rock..... ginger..... ginger ale..... ginger cookies..... gingerbread..... Globe Theater (Shakepeare's England)..... gluten free foods..... gnocchi...... goats..... gold & silver (edible)..... Golden Door (Idlewild restaurant)..... Gooey butter cake..... gooseberries..... goulash..... Gourmet (magazine) food ads 1946, 1948, 1950, 1955 & 1969..... Graham crackers..... granita..... grape tomatoes..... grapefruit..... grapes..... grasshopper pie..... gratin..... gravy..... Great Gatsby parties..... Greece..... green bean casserole..... green goddess dressing..... greens..... grilled cheese sandwiches..... grits..... groom's cake..... guacamole..... Guinea fowl..... gyros
+
+H
+The Haggis..... Halloween..... Halloween candy..... halva..... ham..... Hangtown Fry..... happy hour..... hard boiled eggs..... hard sauce..... hardtack..... Harry Stevens..... hartshorn..... Harvard Beets..... Harvey Firestone..... Harvey Wallbanger..... hash..... hasty pudding..... Hawaii state foods..... head cheese..... heavenly hash..... heel of bread..... Heinz 57 (c. 1930)..... Hello Dolly bars..... Henry Ford..... Herb McDonald..... hermits..... high altitude cake mixes..... high fructose corn syrup..... high tea..... Hindenburg..... Hippodromes (cookies)..... historic cookbooks (online, digitized collections)..... historic menus (online, digitized collections)..... hoagies..... hodge podge..... hoe cakes..... Hofbrau Haus..... Hokey Pokey..... HOLIDAYS..... Hollandaise..... Hollywood bread..... hominy..... honey..... honey baked spiral ham..... honey mustard sauce..... hopping John..... horehound candy..... hors d'oeuvres..... horsemeat..... horseradish...... horseshoe sandwich..... Horn & Hardart..... Hostess cupcakes..... hot chocolate..... hot cross buns..... hot dogs..... Hot-N-Tot sauce..... hot roast beef sandwiches..... hotcakes..... Howard Johnson's 28 flavors..... Huckleberry Finn's foods (Mark Twain)..... hummingbird cake..... hummus..... hundred year eggs..... hush puppies..... hutspot
+
+I
+ice..... ice box cake..... ice box pie..... ICE CREAM..... ice cream cake..... ice cream floatas..... ice cream parlors..... ice cream sandwich..... ice cream socials..... ice cream sundae..... iceberg lettuce..... iceberg wedge salad..... iced coffee..... iced tea..... iced tea week..... icing & frosting..... Idaho state foods..... Illinois state foods..... Impossible pie..... Inca foods..... Independence Day (USA) menus India..... Indiana state foods..... Industrial era American foods..... injera..... insects..... INTERNATIONAL FARE..... Internet recipe web sites..... iodized salt..... Iowa state foods..... Irish coffee..... Irish foods..... Irish soda bread..... Irish stew..... Iroquois foodways..... isinglass..... Italian beef sandwich..... Italian cream cake..... Italian foods..... Italian ice..... Italian wedding soup
+
+J
+Jack-O-Lanterns..... jam..... Jamaican jerk chicken..... Jamaican meat patties..... Jambalaya..... jamon..... Jane Austen's foods..... Japanese artichokes..... Japanese foods..... Japanese fruit cake..... Japanese-USA restaurants..... jelly beans..... jelly doughnuts..... jelly, jam & preserves..... jerky..... Jerusalem artichokes..... Jewish rye..... Jew's mallow..... Jezebel sauce..... Joe Baum..... Joe Froggers..... John Burroughs..... John MacPherson..... johnny cakes (journey cakes)..... Johnny Kan..... Johnny Marzetti..... joinville sauce..... jordan almonds..... jujubes..... July 4th foods..... jumbles..... jus de veau li.....
+
+K
+kaiser pudding..... Kansas state foods..... kebabs..... Kentucky Burgoo..... Kentucky Derby menus..... Kentucky state foods..... ketchup..... Key lime pie..... king cakes..... King Ranch chicken..... kiszka..... Klondike gold rush foods..... knives..... knives & forks, table etiquette..... Kobe beef..... kofta..... kolache..... konpieto..... Kool-Aid pickles..... kreplach..... kuchen..... kugelhopf..... kulich
+
+L
+ladies menus..... Lady Baltimore Cake..... ladyfingers..... Lalla Rookh..... lamb..... lamb's lettuce..... Lamingtons..... Lane cake..... langues de chat..... lard..... lasagne..... lavash (Armenian flat bread)..... lawn party menus..... leaf lard..... Lebanon balogna..... lefse (Norewegian flat bread)..... leftovers..... lemon & egg sauce..... lemon bars..... lemon drops..... lemon meringue pie..... lemon slices in water?..... lemonade..... lemons..... Lenne Lenape foodways..... lettuce...... Lewis & Clark's provisions..... liberty tea..... libraries & museums (food history specialties)..... library wine..... limes..... Lindy's cheese cake..... linzertortes..... liquamen & garum..... liquorice..... literature & food..... lobster fra diavolo (lobster l'americaine)..... lobster newburg..... lobster rolls..... lobster thermidor..... lobsters..... lollipops..... London broil..... Lord Baltimore cake..... Louis XIV & modern French cuisine..... Louis XV fare..... Louis Sherry..... Louisiana state foods..... low-fat milk..... luau..... lunch..... lussekater
+
+M
+Mabel Claire..... macaroni & cheese..... macaroni salad..... madeleines..... Maine state foods..... maize..... Major's Cabin Grill..... Mallomars..... malted milk..... mandarin oranges..... mandelbrot..... mangoes..... manioc..... Manhattan style chowder..... manuscript cook books..... maple sugar..... maraschino cherries..... marble cake..... Marco Polo & the Merchants of Venice..... margarine..... Margaritas..... marmalade..... Marquis de Sade..... marrow bones..... Marshmallow Sandwiches (Nabisco)..... marshmallows..... Mary Ann (bakeware & cakes)..... Maryland state foods..... marzipan..... mashed potatoes..... maslin..... Massachusetts state foods..... matzo balls..... mauby..... Maya foods..... mayonnaise..... mayonnaise cake..... meal times..... measures & weights (historic equivalencies)..... MEAT..... meatloaf ..... medieval fare..... melokhia..... melting moments..... menus (historic, digitized, collections)..... menus & bills of fare..... meringue..... mesclun..... Mesopotamia..... Mexican casserole..... Mexican foods..... Mexican funnel cakes..... Mexican wedding cakes..... Meyer lemons..... Michigan state foods..... microwave ovens..... mignardise..... military rations (USA)..... milk..... milk gravies..... milk shakes..... millet..... minced meat..... mincemeat pies..... Minnesota state foods..... mint jelly & mutton ..... mint julep..... mints..... Minute tapioca..... mirepoix..... Mississippi mud pie..... Mississippi state foods..... Missouri state foods..... mobby..... mock apple pie..... mock turtle soup..... molasses..... mole poblano..... mollusks..... monkey bread..... Monroe Boston Strause..... Montana state foods..... Monte Cristo sandwich..... moon cakes (Chinese)..... Moravian sugar cakes..... mornay sauce..... mother sauces..... Mother's Day brunch..... motto rock..... motto wafer..... movie theater concessions..... mozzarella cheese..... Mr. Potato Head..... mud pie..... muffins..... muffuletta sandwiches..... mulled cider, ale, & wine..... Mulligatawny soup..... mushrooms..... mussels..... must..... mustard..... mustard greens..... mutton..... mutton birds..... mystery cake..... Mystery Chef
+
+N
+naan..... nachos..... Nanaimo bars..... Nantua sauce..... Napoleon & Josephine..... napoleons..... Natchitoches meat pies..... national loaf (UK)..... national food days..... Native American foodways..... Navy bean soup..... Neapolitan ice cream..... Nebraska state foods..... Nevada state foods..... New Amsterdam foodways..... New England boiled dinner..... New Hampshire state foods..... New Jersey state foods..... New Mexico state foods..... new potatoes..... New World foods.... NEW YEAR..... New Year's cookies & cakes..... New York state foods..... no-bakes..... noodle bars..... noodles..... nori..... normandy sauce..... North Carolina state foods..... North Dakota state foods..... nutmeg
+
+O
+oatmeal cookies..... octopus..... Ohio state foods..... Ojibwe foodways..... Oklahoma state foods..... okra..... OLD WORLD..... Olio..... olive oil..... Olivenaise..... Olla podrida..... omelettes..... 1234 cake..... onion rings..... onions..... open sandwiches (Scandinavian-style)..... opera cake..... Opera fudge & Opera creams..... orange cauliflower..... orange flower water..... orange juice..... oranges..... Oregon state foods..... Oreos (& vanilla Oreos)..... oriental noodle salad..... Osso buco..... ox eyes..... oyster crackers..... oyster ice cream..... oyster loaves (po'boy)..... oyster plant..... oyster stew..... oyster stuffing..... oysters..... oysters Kirkpatrick..... oysters Rockefeller
+
+P
+Pablum..... paczki & faworki..... paella..... pain de mie..... Palestine soup..... palmiers..... Pan-Pak..... pancake syrups..... pancakes & crepes..... pandowdy..... panettone..... panforte..... panini..... panko..... panzanella..... paper cups..... paprika..... paratha..... parbaked bread..... parfait..... Parisienne sauce..... Parker House rolls..... parsley..... Parthian bread..... Passover..... pasta..... pasta & tomato sauce..... pasta primavera..... pasta salad..... pasties..... pastrami..... pastry..... pastry chefs..... pate Chinois..... Paul Revere..... paupiettes..... Pavlova..... pawpaws..... PDQ..... pea soup..... peach pickles..... peaches..... peanut butter..... Peanut butter & banana sandwiches (Elvis!)..... peanut butter & jelly sandwiches..... peanut butter cookies..... pears..... pears in syrup..... pease pudding & pottage..... pecan pie..... pecans..... Pekar's test..... Peking duck & beggar's chicken..... pemmican..... Pennsylvania Dutch fare..... Pennsylvania state foods..... penny candy..... pepper pot..... peppercorns..... perfection salad..... periwinkles..... persians (doughnuts)..... persimmons..... personal chefs & private cooks..... personal pies..... pesto..... petit fours..... Philadelphia pepper pot..... Philadelphia-style ice cream..... Philly cheese steak..... pickled eggs..... pickled limes..... pickled peaches..... pickled peppers..... pickles..... picnic ham..... picnics..... PIE..... pie crust..... "pie king"..... pie plant..... pierogis..... pigeon..... pigeon eggs..... pigs in blankets..... pilchards..... Pillsbury Bake Off..... pineapple upside-down cake..... pineapples..... pink lemonade..... pinwheel sandwiches..... Pioneer American foods..... pissaladiere..... pistachios..... pita bread..... Pittsburgh-style steak..... pizza..... pizzelle..... plantains..... Plasmon..... ploughman's lunch..... plum pudding..... po-boy sandwiches..... Poland..... polenta..... Polish chop suey..... pomegranates..... Pony Express rider meals..... Pop Rocks..... Pop Tarts..... popovers..... poppy seeds..... popsicles..... porcupines..... pork & applesauce..... pork & beans..... pork & sauerkraut..... pork pie..... pork steaks..... Pork tenderloin sandwich..... portable soup (aka pocket soup)..... portobello mushrooms..... posset..... pot luck..... pot pie..... pot roast..... potato bread..... potato candy..... potato chip cookies..... potato salad..... potato yeast..... potatoes..... potstickers..... pottage..... POULTRY..... pound cake..... poutine..... powdered milk..... pralines..... prawns..... preserves..... PRESIDENTIAL FOODS..... pretzel bread..... pretzels..... price-free menus..... prix-fixe..... Prohibition speakeasies & cocktails..... Pronto Pups..... Prudence Penny..... PUDDINGS..... pudding mixes..... puff paste..... pulled pork..... Pullman loaves..... pulque & maguey..... pumpernickel bread..... pumpkin bread..... pumpkin pie..... punch..... purple cow..... purslane..... Py-O-My
+
+Q
+QUXYZ foods (list)..... queen of puddings..... Queen Victoria..... quesadillas..... quiche..... quinoa..... Quin's sauce
+
+R
+race of ginger..... ragu..... railroad dining..... raisins..... ramen noodles..... ramps..... rappie pie..... rare, medium or done?..... ratafia..... rationing, WWII..... ravioli..... ready-to-spread frostings..... receipts vs recipes..... recipe names..... recipes (historic interpretation & adaption)..... recipes (oldest)..... red devil's food..... red eye..... red flame seedless grapes..... red velvet cake..... refried beans..... refrigerator biscuits..... refrigerator cake..... refrigerator pie..... releves & removes..... remoulade...... RESTAURANTS & FOODSERVICE..... restaurant dining: men & women together..... restaurant menus..... Reuben sandwiches..... revolving restaurants..... rhubarb..... Rhode Island state foods..... Rice Krispies Treats..... rice pudding..... ricotta cheese..... risotto..... Ritz crackers..... Robert sauce..... Robin Hood's foods..... rock candy..... rock lobster..... rocket..... rocky road..... rolled fondant..... Rolling Stones..... roly-poly pudding..... romaine lettuce..... Roman Colosseum..... root beer..... roquefort cheese & salad dressing..... rosewater (rose flower water)..... roti..... round sliced sandwich bread..... roux..... royal icing..... rugelach..... rum balls..... rum raisin ice cream..... rusk..... Russia..... Russian dressing..... Russian service..... Russian tea cakes..... rutabagas..... rye..... rye & Indian bread..... rye bread
+
+S
+Sabayon..... Sachertorte..... safe to eat?..... saffron..... sago..... SALAD.... salad bars..... salad dressing..... Salisbury steak..... Sally Lunn..... salmagundi..... saloons of the Old West..... salsa..... salsify..... salt..... salt rising bread..... salt water taffy..... saltines..... samosa..... sanbusaq..... sand tarts..... sandwich bread..... Sandwich Day..... SANDWICHES..... sangria..... sardines..... sashimi..... Sau Sea shrimp cocktail..... SAUCES..... sauerkraut candy..... sausage rolls..... sausages of Italy..... savarin..... savita..... sawdust pie..... sawmill gravy..... scalloped dishes..... scallops..... scones..... school lunches..... Scooter pies & Mallomars..... Scotch eggs..... Scottish tablet..... scrambled eggs..... scratch cakes..... seaweed..... second breakfast..... seitan..... semolina..... sesame seeds..... seven fishes..... seven layer taco dip..... Shakespeare's food..... shark..... shark's fin..... she crab soup..... sheep..... shelf-life dating (freshness)..... shepherd's pie..... sherbet..... ship's biscuit..... shirred eggs..... shoofly pie..... shortbread..... shortening..... shortening bread..... shrimp..... shrimp cocktail..... shrimp scampi..... shrimp wiggle..... shrub..... silver & gold (edible)..... silver dragees..... Simon & Garfunkel..... siracha sauce..... six foot sandwiches..... skim milk..... Slave subsistence..... sliced bread..... slippery pot pie..... sloppy joes..... Smith Island Cake..... smoke-free dining..... smoothies..... s'mores.... Snackin Cake..... snails..... snickerdoodles..... snow eggs..... soba noodles..... soda fountains..... sofki..... soft boiled eggs..... Sonja Henie..... sopaipillas & fry bread..... sorbet..... sorbet course..... souffle..... Soul Food..... SOUP..... soup mix..... soup or stew?..... sour cream..... sour milk..... sourdough..... South Carolina state foods..... South Dakota state foods..... soy sauce..... SPACE FOOD..... Space Needle (restaurant, Seattle World's Fair 1963)..... spaghetti & meatballs..... spaghetti carbonara..... SPAM..... Spanish foods..... spelt..... spinach dip..... spiral ham..... spirulina..... split pea soup.... sponge cake..... sponge candy..... spoonbread..... spotted dick & spotted dog..... spring rolls..... squab..... square meal..... squid..... squirrel..... sriracha sauce..... stained glass cake..... stargazy pie..... starters..... STATE FOODS..... steak au poivre..... steak Diane..... steak houses..... steak tartare..... stew or soup..... sticky buns..... stock, broth & bouillon..... stollen..... Stork Club (NYC) (cocktails)..... stracciatelle..... streusel..... stromboli..... strufoli..... stuffed dates..... stuffed pepppers..... stuffing & dressing..... submarine sandwiches (aka heros, hoagies, wedges, grinders &c.)..... sugar..... sugar cookies..... sugarplums..... sugo..... sukiyaki..... summer pudding..... sundaes..... Sunday dinner..... Super Bowl parties..... supper..... surf & turf..... sushi..... Swankyswig glasses..... Swedes..... Swedish meatballs..... sweet and sour pork..... sweet potato pie..... sweet potatoes & yams..... sweetbreads..... sweetmeats..... Swiss picnic..... Swiss steak..... switchel..... syllabub
+
+T
+table d'hote..... table service (origins & evolution)..... tablet..... taco salad..... taco soup...... tacos..... taffy & toffee..... tailgate parties..... take out, take away & take home..... tall food..... tamales & tamale pie..... tandoors..... Tang..... Tante Marie..... tapenade..... tapioca..... taro..... tart tatin..... tartar sauce..... tarts..... tasting menus..... Taylor Pork Roll..... tea..... tea bags..... tea cakes..... tea time..... televisions & home dining..... televisions in restaurants..... tempura..... Tennessee state foods..... tequila..... teriyaki, sukiyaki & yakitori..... Tetrazzini..... Tex-Mex..... Texas sheet cake..... Texas state foods..... Thai-USA restaurants..... Thanksgiving..... thirded bread..... Thomas Edison..... Thompson seedless grapes..... Thousand Island dressing..... thousand year eggs..... thumbprint cookies..... tiffin..... timbale..... tipsy parson..... tiramisu..... toad-in-the-hole..... toast..... toasted ravioli..... toffee & taffy..... toffee apples..... tomato gravy..... tomato juice..... tomato pie..... tomato sauce..... tomato soup cake..... tomato soy..... tomatoes..... Top of the Fair NYC World's Fair restaurant 1964-1965... tortes & torten..... tortilla soup..... tortillas..... tossed salad..... tourtiere..... tracklements..... Trader Vic's cocktails & books..... trail mix & gorp..... treacle..... trenchers..... Trick or treat (Halloween candy)..... trid..... trifle..... tri-tip steak..... truffles (candy)..... truffles (mushrooms)..... tuna melt sandwiches..... tuna noodle casserole..... tuna salad..... Tunnel of Fudge cake..... Turducken..... turkey & stuffing..... turkey bacon..... turkey Tetrazzini..... Turkish delight..... turnip greens..... turnovers..... turtle soup..... TV dinners..... Twelfth Night cakes (King cakes)..... Twinkies
+
+U
+unsalted butter..... unturkey..... upside-down cake..... urban farming..... USA foods..... Utah state foods
+
+V
+Valentine's Day candy & menus..... vanilla..... veal birds..... veal glue..... vegetable marrow..... vegetable or fruit?..... vegetable oyster..... vegetable shortening..... VEGETABLES..... Veloute..... vending machines..... venison..... verjuice..... Vermont common crackers..... Vermont state foods..... Vichyssoise..... Victorian English foods..... Victorian sandwich cakes..... Victorian tea time..... Vietnamese-USA restaurants..... Viking foods..... vinaigrette..... vinegar..... vinegar pie (& vinegar pie crust)..... Virginia state foods..... vodka sauce..... volcano cookies
+
+W
+wacky cake..... waffles..... Walden saffron..... Waldorf salad..... Washington cake..... Washington state foods..... wassail..... water served before meals..... water cress..... Watergate salad & cake..... watermelons..... wedding cake..... weights & measures (historic equivalencies)..... Welch's grape juice..... Welsh rabbit..... West Virginia state foods..... western sandwiches (aka Denver sandwiches)..... wheat..... wheat meat..... white bread..... white chocolate..... Wiener schnitzel..... wine..... wine bottles..... whole wheat bread..... Whoopie pies..... Windows on the World, World Trade Center, NYC..... Wisconsin state foods..... wok cookery..... won tons..... wooden salad bowls..... Worcestershire sauce..... World War II rationing..... World's Fair fare..... Wright brothers..... Wyoming state foods
+
+Y
+yakitori..... yams..... yeast..... yogurt..... Yorkshire pudding..... Yorkshire Stand pie
+
+Z
+Zabaglione..... zanzarelli..... zakuski..... zeppole..... zoo animals (1870 Paris)..... zucchini (aka vegetable marrow)..... zucchini bread..... zweiback
+
+
+Holiday tables
+New Year..... Chinese New Year..... Super Bowl..... Valentine's Day..... Presidents' Day..... Easter..... Passover in the USA..... Kentucky Derby..... Cinco de Mayo..... Mother's Day..... American Independence Day [July 4th]..... Halloween..&.. Day of the Dead/Dia de los Muertos..... Thanksgiving..... Christmas
+International fare
+Australia & New Zealand..... Canada..... China..... England..... France..... Germany..... Greece..... Ireland..... Italy..... Japan..... Mexico..... Poland..... Russia..... Spain..... USA
+
+Old World period foods
+Safe to eat?..... First cooks..... Ancient Mesopotamia..... Ancient Egypt..... Ancient Rome..... Roman Colosseum..... Ancient Roman soldiers mess..... Bible foods: New Testament..... Celtic foodways..... Viking age foods..... Anglo-Saxon/Norman Britain..... Marco Polo & the Merchants of Venice..... Medieval feasts..... Shakepeare's England..... Louis XIV & modern French cuisine..... Louis XV fare..... French Revolution foods..... Napoleon I fare..... Careme..... Captain James Cook's rations & mess..... Victorian English foods.....
+
+New World foods
+"New World" ingredients..... Aztec food..... Inca foods..... Maya foods..... TexMex..... Native American foodways..... California mission foods..... California gold rush cuisine..... Pony Express rider meals..... Colonial American foods..... Pioneer American foods..... Civil War-era foods..... Slave subsistence..... Cowboy cooking..... Saloons of the Old West..... Industrial era American foods..... Railroad dining..... Ellis Island canteens..... USA foods..... 20th century USA, by decade
+
+Mealtimes, meals & manners
+meal times..... social history, manners & historic menus..... Table manners: forks & knives.....colonial American children afternoon tea (& high tea)..... appetizers..... automobile luncheons & motor picnics..... breakfast..... brunch..... buffets..... clam bakes..... cocktail parties..... dessert..... dinner..... free lunch..... garden parties..... ice cream socials..... luaus..... lunch..... picnics..... ploughman's lunch..... pot luck..... school lunches..... second breakfast..... square meal..... starters..... Sunday dinner..... supper..... tailgate parties..... tea time
+
+Menu options
+oldest written menu..... Restuarant menus..... historic menu collections (libraries/universities)..... a la carte..... amuse bouche..... chef's tables..... children's menus..... Classic French menus..... early bird special..... ladies menus..... price-free menus..... prix-fixe..... restaurant prices..... table d'hote..... tasting menus..... 12 course menu
+
+Table service
+Origins & evolution..... Ancient Roman dining service..... French service..... Russian service..... English service..... Butler service..... American service..... Water served before meals?
+
+Favorite foods of famous people
+Alexander Hamilton..... Amadeus Mozart..... Amelia Earhart..... Andrew Wyeth..... Anne Frank..... Aretha Franklin..... Barbra Streisand..... Beatles..... Benjamin Franklin..... Captain Cook..... Charles Lindbergh..... Christopher Columbus..... Davy Crockett..... Dick Gregory..... Eleanor Roosevelt..... Elizabeth Blackwell..... Frederick Chopin..... Harry Houdini..... Helen Keller..... Howard Hughes..... John Muir..... John D. Rockefeller, Sr...... John James Audubon..... Joseph Smith..... Leonardo Da Vinci..... Literature & food..... Louis XIV..... Mahatma Gandhi..... Marco Polo..... Mata Hari..... Napoleon & Josephine..... Paul Revere..... Presidents of the USA..... Queen Victoria..... Sarah Bernhardt..... Sonja Henie..... Thomas Edison..... Vincent Van Gogh..... Wright Brothers
+
+
+FoodTimeline library owned 2300+ books, hundreds of 20th century USA food company brochures, & dozens of vintage magazines (Good Housekeeping, American Cookery, Ladies Home Journal &c.)
+
+anise Anise
+bamboo shoots Bamboo shoots
+beer Beer
+Related (3)
+cider Cider
+Related (1)
+Dijon mustard Dijon mustard
+double cream Double cream
+egg Egg
+Related (4)
+ginger biscuit Ginger biscuit
+icing sugar Icing sugar
+Related (2)
+mozzarella Mozzarella
+Related (1)
+onion Onion
+Related (4)
+peanut oil Peanut oil
+pork loin Pork loin
+Related (1)
+prosciutto Prosciutto
+pulled pork Pulled pork
+red mullet Red mullet
+sherry vinegar Sherry vinegar
+smoked haddock Smoked haddock
+tangerine Tangerine
+tinned tuna Tinned tuna
+
+A - asparagus, apple, apricot, anchovies, applesauce, Alphabits cereal, artichokes, animal crackers, almonds, angel hair pasta, acini de pepe, acai berry, Apple Jacks cereal, avocado, Aero chocolate bar, agar agar, aubergine, angel food cake, aloo gobi, asiago cheese
+
+B - beef, beans, broccoli, beets, barley, bacon, biscuits, bundt cake, bread, bagel, butter, burrito, banana, bologna, blackberry, blueberry, boysenberry, biscuit, bun, barbecue, BBQ, brownie, buffalo wings, basil, Bok choy, baker’s chocolate, breasts of chicken, brussel sprouts, blueberry muffins, banana bread, bean salad, baklava, buffalo meat, black bean buns, Balsamic dressing, breadfruit, bird's nest cookies, bird's nest soup, brains, bean sprouts, black eyed peas, Bruschetta, black forest cake, borscht, basmati rice, bulgur, butter squash, butter chicken,
+
+C - corn, carrots, cabbage, cauliflower, crab, cracker, cookies, cucumber, croutons, cantaloupe, clams, cranberry sauce, corndog, cake, cashews, coconut, coffee, casserole, crepe, cod, cumquat, Caramel, candy, curry, cocoa, cream of mushroom, croissants, Caflib, chamomile tea, corn chips, cream cheese, custard, cranberries, currants, crawfish, crabcakes, Crème Brule, cabbage rolls, California dressing, cassava, creamsicle, Coroneto, candy cane, Coffee Crisp, corn flakes, cream puff, cow's tongue, caviar, corn fritters, cornbread, couscous, cobbler, carrot cake, custard, compote, coleslaw, cannoli
+
+Soft C - cereal, cider, celery, cinnamon, Caesar salad, cilantro
+
+Ch - chips, cheese, cherry, chicken, Chinese food, chili con carne, cheeseburger, Cheetos, Cheerios, chunky peanut butter, chocolate, chowder, chow mien noodles, Cheddar cheese, cheesesteak, chick peas, Chex Mix, chocolate chips, cheesecake, Chop suey, chapatis, chutney, churros, chalupas
+
+D - duck, donut, Danish, drumsticks, Dutch apple pie, durian, dairy, deviled eggs, dill, dill pickles, Dutch cookies, dark chocolate, dates, dim sum, dahl soup, Dream whip, dolmades, dandelion greens, Ding Dongs, Doritos<, ditalini (pasta), br>
+E - eggs, eggplant, endive, eggroll, Eskimo pie, escarole, eclairs, escargot, espresso, English muffin, Echinacea, elbow macaroni, eggnog, enchiladas, elephant ears, Eggs Benedict, edamame,
+
+F - fish, French fries, fruit, funnel cake, fajitas, fortune cookie, French toast, figs, fudge, flapjacks, frijoles, fritters, frosting, fruitcake, fruit pie, frankfurters, fried pie, Fig Newtons, Fritos, fettuccine, falafal, free range eggs, feta, fiddlestick greens, flour, fricassee, flap jacks, flax seeds, flax oil, focaccia bread, fudgicle, Fasolada soup, fried rice, fruit salad
+
+Soft G - gelatin, giblets, ginger, ginger ale, ginger beer, gingerbread, gelato
+
+G - garlic, gravy, green beans, grapes, gooseberry, garbonzo, granola, grapefruit, guacamole, grapeseed oil, graham crackers, green olives, gailan, green pepper, garlic bread, goat's milk, gyoza, gala apples, guava, gumbo, gazpacho, gizzards, goulash
+
+H - ham, horseradish, hamburger, hot dog, hoagie, honeydew, halibut, huckleberries, honey, hot chocolate, Heinz ketchup, Hollandaise, hummus, herbs, herrings, hearts of palm, hominy, hash browns, haggis, hog jowl, honey bun, Ho Ho's
+
+I - ice cream, iced tea, icee, icing, Indian jujubee, iceberg lettuce, Italian bread, ita palm, In Australia icy pole: a frozen flavoured ice treat, icing sugar: confectioner's dusting sugar, and iced doughnut, Indian curry, Irish stew, imitation baco bits, Imitation crab, Impastata cheese, Indian pudding, infant formula, instant coffee, instant oatmeal, Italian dressing
+
+J - juice, Jell-O, jelly, jam, jerky, jalapeño, Jujubes, jambalaya, Jamaican patties
+
+K - kale, kohlrabi, kiwi, kidney beans, kumquat, kielbasa, Kool-Aid, ketchup, Kix cereal, Kit Kat candy bar, Kraft dinner, Knorr soup, Kraft dressing, kamut
+
+L - lima bean, leeks, lentils, liver, lettuce, lasagna, lemons, limes, lobster, linguine, lemonade, lamb, lemon tarts, long john donuts, legumes, Little Debbies Snack Cakes, liverwurst, licorice, Life cereal,
+
+M - mustard, macaroni, mushroom, milk, melon, muffin, marshmallows, mozzarella, mango, mince meat, marmalade, mahi-mahi, maraschino cherries, minestrone, margarine, maple syrup, mayonnaise, mashed potatoes, mackerel, miso, manicotti, martimonial cake, mousse, Mars bar, meatloaf, masala, millet, moussaka, mayhaws, marmite,
+
+N - noodles, nuts, nachos, nectarines, nuggets, Nutter-Butter Cookies, Nesquik drink mix, Nerds candy, Neapolitan ice cream, Nalley’s chips, Nestle’s chocolate, naan bread, Necco Wafers, Neufatual cheese, 
+
+O - onion, okra, orange, oatmeal, omelet, olives, oysters, octopus, Oreo cookies, Old Dutch chips, Ovaltine, oregano, organic salad, ox tail, ostrich eggs, oat cakes, orzo
+
+P - pasta, pickles, peas, potato, potato chips, parsley, pumpkin, peppers, parsnips, pork, popcorn, pistachios, pie, peanuts, pizza, peanut butter, pudding, peaches, pears, plum, prunes, pancake, pastry, pineapple, peppermint, pumpernickel, papaya, pretzels, popsicles, pecans, pepperoni, persimmons, Portabello mushrooms, pine nuts, perogies, pimentos, pinto beans, paprika, putanesca, parmesan, prawns, poi, potstickers, poutine, puffed wheat, protein shakes, protein bars, pakora, passionfruit, porridge, plantain, pilaf, perch, pollock, potroast, plum sauce, pesto, Peking duck, paella, pita bread, polenta, pate, Pavlova, pancetta, pomegranate
+
+Q - quiche, quail, quince, quesadilla, quinoa, Quaker oatmeal, quick oats, quakes rice cakes, Nestle's Quik, quorn,
+
+R - rutabaga, rhubarb, radish, rice, ribs, rolls, rye bread, raspberry, ravioli, rigatoni, raisins, ratatouille, relish, Ritz crackers, rosehips, romaine, rooibos, rice crackers, roti, red delicious, rye crisp, rice paper, rootbeer float, red lentils, refried beans, rissotto, Reuben sandwich, ramen, radicchio, ricotta cheese, romano cheese, Rocky Road ice cream, roll-ups,
+
+S - spinach, squash, soybean, steak, spaghetti, salad, swiss cheese, soup, sandwich, sausage, spam, scallop, sushi, sauce, succotash, sundae, stuffing, strawberry, stromboli, snow peas, salami, stew, salmon, sunflower seeds, swordfish, satsuma, Slushies, squid, Sesame seeds, Swiss chard, sour cream, sardines, salsa, satziki, souvlaki, sashimi, spelt, sesame oil, spanokopita, spinach dip, sasparilla, spumoni, Spartan apples, starfruit, sweet potato, Skor's bars, smores, stoned wheat crackers, soysauce, smoothie shake, samosa, Spanish rice, snapper, split peas, scones, stirfry, sweet and sour, sorbet, sloppy joes, string cheese, souffle, Starburst,
+
+Sh - shish kabob, shells, shepherd's pie, shrimp, sherbet, shallot, Shredded Wheat, shark fin soup, shortbread, shortcake
+
+T - tomato, turnip, turkey, turtle, tapioca, toast, taco, tuna, tortillas, taffy, tarts, tuna, tangerine, tossed salad, tabasco pepper sauce, tamale, TV dinners, tater tots, tempura, tofu, tempeh, tortellini, triscuits, tamarind, tabbouleh salad, teriyaki, torte, trifle, truffle, turmeric, tahini, Twinkies, twizzlers, tostitos,
+
+Th - thighs, Thousand Island salad dressing, thimbleberry,
+
+U - upside down cake, uglifruit, unpasteurized milk
+
+V - vegetables, venison, veal, vermicelli, vidalia onion, vinegar, vol-au-vent, Vegemite, vichyssoise, vanilla, vine leaves, vegetable soup, virgin oil, vakalolo, vindaloo, vomit fruit,
+
+W - watercress, wax bean, watermelon, wheat bread, wings, waffles, walnuts, wafers, walleye fish, water, wontons, Wonder bread, wasabi, wild rice, Waldorf Salad
+
+X - xmas cake, xigua, chex mix,
+
+Y - yam, yellow squash, yogurt, yolk, yellow beans, Yorkshire pudding, yucca, yautia, yaki soba, yiyantes
+
+Z - zucchini, ziti, zwieback bread, zabaglione sauce, zander fish, zours,
+
+
+Craving this:	Reason is:	Restore with this:
+COMMON FOOD		
+Cheese	Essential Fatty Acids deficiency	Omega 3′s (EPA and DHA)– Flax oil, ground flaxseeds, chia seeds, walnuts
+Calcium deficiency	Sesame seeds/ tahini, broccoli, kale, legumes, mustard and turnip greens
+Pasta, white bread, pastries	Chromium deficiency	Onion, romaine lettuce, tomato, cinnamon, grapes, apples, sweet potato
+Bread and toast	Nitrogen deficiency	Foods containing proteins, i.e.. Green leafy veg, nuts, seeds, legumes, grains
+Red meat	Iron deficiency	Beans, legumes, unsulphured prunes, figs+ other dried fruit, seaweed, spinach, cherries, Vitamin C for iron absorption
+Popcorn	Stress hormone fluctuations	Meditation, breathing exercises, exercise, leafy greens, vitamin B and C
+Crisps	Chloride deficiency	Celery, olives, tomato, kelp, Himalayan sea salt
+Essential Fatty Acids deficiency	Omega 3′s (EPA and DHA)– Flax oil, ground flaxseeds, chia seeds, walnuts
+FLAVOR		
+Burned Food	Carbon deficiency	Fresh fruits
+Acid foods	Magnesium deficiency	Raw cacao nibs/beans/powder, whole grains, beans, nuts, seeds, greens, fruit
+Salty Foods	Chloride deficiency	Celery, olives, tomato, kelp, Himalayan sea salt
+Stress hormone fluctuations	Meditation, breathing exercises, exercise, leafy greens, vitamin B and C
+SWEETS		
+Chocolate	Magnesium deficiency	Raw cacao nibs/beans/powder, whole grains, beans, nuts, seeds, greens, fruit, magnesium
+Soda, fizzy drinks	Calcium deficiency	Sesame seeds/ tahini, broccoli, kale, legumes, mustard and turnip greens
+General sweets	Hypoglycemia (low blood sugar)	Fruit, high fibre foods (beans, legumes), complex carbs (grains), chromium (cinnamon)
+Tryptophan deficiency	Spirulina, pumpkin/sesame/sunflower seeds, raw cacao, oatmeal, sweet potato, spinach, raisins
+Chromium deficiency	Onion, romaine lettuce, tomato, cinnamon, grapes, apples, sweet potato
+Sulphur deficiency	Cruciferous vege (kale, cabbage, etc), cranberries, horseradish, asparagus, carob powder, garlic, onion
+Phosphorus deficiency	Whole grains, pinto beans, pumpkin seeds, brazil nuts, lentils
+STIMULANTS		
+Coffee or black tea	Sulphur deficiency	Cruciferous vege (kale, cabbage, etc), cranberries, horseradish, asparagus, carob powder, garlic, onion
+Iron deficiency	Beans, legumes, unsulphured prunes, figs+ other dried fruit, seaweed, spinach, cherries, Vitamin C for iron absorption
+NaCl (salt) deficiency	Himalayan or Aztecan sea salt, Apple Cider vinegar, kombucha
+Phosphorous deficiency	Whole grains, pinto beans, pumpkin seeds, brazil nuts, lentils
+Alcohol, recreational drugs	Calcium deficiency	Sesame seeds/ tahini, broccoli, kale, legumes, mustard and turnip greens
+Glutamine deficiency	Cabbage, beetroot, beans, spinach, parsley, vegetable juice
+Protein deficiency	Green leafy vegetable, nuts, seeds, legumes, grains, beans
+Potassium deficiency	Citrus fruits, bitter green leafy veg, banana, tomato, pineapple, black olives, seaweeds
+Avenin deficiency	Oatmeal, granola, cereals, whole grains
+Tobacco	Silicon deficiency	Horsetail herb, nuts, seeds, oats, millet, barley, onions, whole wheat, beetroot. Avoid refined starches
+Tyrosine deficiency	Fruits (esp. avocado and banana), whole grains, oats, legumes, beans, nuts, seeds, Vitamin C, vegetables
+EATING HABITS		
+Lack of appetite	Chloride deficiency	Celery, olives, tomato, kelp, Himalayan or Aztecan sea salt
+Thiamine (Vitamin B1) deficiency	Whole grains, peanuts, seeds, beans, green and yellow vegetables
+Niacin (Vitamin B3) deficiency	Peanuts, sunflower seeds, wheat bran and wheat germ
+Manganese deficiency	Walnuts, almonds, pecans, whole grains, green leafy veges, pineapple, blueberries
+Often overeating	Tryptophan deficiency	Spirulina, pumpkin/sesame/sunflower seeds, raw cacao, oatmeal, sweet potato, spinach, raisins
+Tyrosine deficiency	Fruits (esp. Avocado and banana), whole grains, oats, legumes, beans, nuts, seeds, Vitamin C, veges
+Silicon deficiency	Horsetail herb, nuts, seeds, oats, millet, barley, onions, whole wheat, beetroot. Avoid refined starches
+Often snacky	No balanced diet, missing nutrients	Do a detox, substitute junk food for healthy meals
+MORE BIZARRE		
+Crunching on ice	Iron deficiency	Beans, legumes, unsulphured prunes, figs+ other dried fruit, seaweed, spinach, cherries, Vitamin C for iron absorption
+Laundry starch	Iron deficiency	Beans, legumes, unsulphured prunes, figs+ other dried fruit, seaweed, spinach, cherries, Vitamin C for iron absorption
+Cigarette butts	Iron deficiency	Beans, legumes, unsulphured prunes, figs+ other dried fruit, seaweed, spinach, cherries, Vitamin C for iron absorption
