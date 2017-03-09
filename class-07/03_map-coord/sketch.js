@@ -46,7 +46,7 @@ function draw() {
       // print(i, lat, lon);
       // print(mappedLat, mappedLon);
 
-      var clr = map(row.getNum(22), lowestViews, highestViews, 50, 255);
+      var clr = map(row.getNum(22), lowestViews, highestViews, 0, 255);
       // colorMode(HSB);
       fill(clr, 0, 0);
       stroke(clr, 0, 0);

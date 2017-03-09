@@ -48,36 +48,36 @@ function draw() {
   background(240);
   textAlign(CENTER);
 
-  for (var i=0; i<bars.length; i++) {
-    // Making the yellow highlights
-    if((mx > 50) && (mx < width-50)) {
-      strokeWeight(5);
-      stroke("yellow");
-      line(mx, 50, mx, height/2);
-
-      if(abs(mx - bars[i].x) < 2) {
-        fill("blue");
-        text(bars[i].month, mx, bars[i].y - 25);
-        text(bars[i].popularity, mx, bars[i].y - 40);
-      }
-    }
-    // draw the bars
-    strokeWeight(1);
-    stroke(0);
-    line(bars[i].x, bars[i].y, bars[i].x, height/2);
-    noStroke();
-    fill(127);
-    ellipse(bars[i].x, bars[i].y, 7, 7);
-  }
+  // for (var i=0; i<bars.length; i++) {
+  //   // Making the yellow highlights
+  //   if((mx > 50) && (mx < width-50)) {
+  //     strokeWeight(5);
+  //     stroke("yellow");
+  //     line(mx, 50, mx, height/2);
+  //
+  //     if(abs(mx - bars[i].x) < 2) {
+  //       fill("blue");
+  //       text(bars[i].month, mx, bars[i].y - 25);
+  //       text(bars[i].popularity, mx, bars[i].y - 40);
+  //     }
+  //   }
+  //   // draw the bars
+  //   strokeWeight(1);
+  //   stroke(0);
+  //   line(bars[i].x, bars[i].y, bars[i].x, height/2);
+  //   noStroke();
+  //   fill(127);
+  //   ellipse(bars[i].x, bars[i].y, 7, 7);
+  // }
 
   // Uncomment if you wanna do line charts,
-  // noFill();
-  // stroke(0);
-  // beginShape();
-  // for (var i=0; i<bars.length; i++) {
-  //   vertex(bars[i].x, bars[i].y);
-  // }
-  // endShape();
+  noFill();
+  stroke(0);
+  beginShape();
+  for (var i=0; i<bars.length; i++) {
+    vertex(bars[i].x, bars[i].y);
+  }
+  endShape();
 
   for (var i=0; i<bars.length; i+=12) {
     // text(bars[i].month, bars[i].x, height/2 + 30);
