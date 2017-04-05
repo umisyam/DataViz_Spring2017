@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>D3 Scales Basic</title>
+		<script type="text/javascript" src="https://d3js.org/d3.v4.min.js"></script>
+		<script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+	</head>
+	<style>
+		body {
+		  font-family: "Helvetica Neue", Helvetica, sans-serif;
+		  font-size: 12px;
+		  color: #333;
+		}
+		text {
+			fill: #555;
+		}
+		.inner text {
+			text-anchor: middle;
+		}
+	</style>
+	<body>
+		<h2>A. Scales with CONTINUOUS input & CONTINUOUS output</h2>
+		<svg width="700" height="320">
+	  	<g id="wrapper1" transform="translate(40, 30)"></g>
+	  	<g id="wrapper2" transform="translate(40, 90)"></g>
+	  	<g id="wrapper3" transform="translate(40, 150)"></g>
+	  	<g id="wrapper4" transform="translate(40, 210)"></g>
+	  	<g id="wrapper5" transform="translate(40, 260)"></g>
+	  </svg>
+	  <h2>B. Scales with CONTINUOUS input & DISCRETE output</h2>
+	  <svg width="700" height="220">
+	  	<g id="wrapper6" transform="translate(40, 10)"></g>
+	  	<g id="wrapper7" transform="translate(40, 90)"></g>
+	  	<g id="wrapper8" transform="translate(40, 150)"></g>
+	  </svg>
+	  <h2>C. Scales with DISCRETE input & DISCRETE output</h2>
+	  <svg width="700" height="350">
+	  	<g id="wrapper9" transform="translate(40, 20)"></g>
+	  	<g id="wrapper10" transform="translate(40, 90)"></g>
+	  	<g id="wrapper11" transform="translate(40, 220)"></g>
+	  </svg>
+
+	<script>
+	// Reference: https://github.com/d3/d3-scale
+  // D3.js Scales are basically functions that map an input domain to an output range. It can also convert a number in the domain to an output in the range. D3 has around 12 different scale types, see more at their documentation.
+
+  /*
+  		*** Scales with continuous input and continuous output ***
+  */
+  // ---- 1. scaleLinear ------------------------------------
+  // the most commonly used scale type
+	var myData = [ 1, 10, 22.5, 30, 60, 75, 90, 100 ];
+
+	var linearScale = d3.scaleLinear()
+	  .domain([0, 100])
+	  .range([0, 600]);
+
+	d3.select('#wrapper1')
+		.selectAll('circle')
+		.data(myData)
+		.enter()
+		.append('circle')
+		.attr('r', 3)
+		.attr('cx', function(d) {
+			return linearScale(d);
+		});
+
+	d3.select('#wrapper1')
+		.selectAll('text')
+		.data(myData)
+		.enter()
+		.append('text')
+		.attr('x', function(d) {
+			return linearScale(d);
+		})
+		.attr('y', -8)
+		.text(function(d) {
+			return d;
+		});
+
+
+	// ---- 2. scaleSqrt ------------------------------------
+	var sqrtScale = d3.scaleSqrt()
+		.domain([0, 100])
+		.range([0, 20]);
+
+	d3.select('#wrapper2')
+		.selectAll('circle')
+		.data(myData)
+		.enter()
+		.append('circle')
+		.attr('r', function(d) {
+			return sqrtScale(d);
+		})
+		.attr('cx', function(d) {
+			return linearScale(d);
+		});
+
+
+	// ---- 3. scaleLog ------------------------------------
+	var logScale = d3.scaleLog()
+		.domain([10, 10000000])
+		.range([0, 700]);
+
+	var myDataLog = [10, 100, 1000, 10000, 100000, 1000000, 10000000];
+
+	d3.select('#wrapper3')
+		.selectAll('text')
+		.data(myDataLog)
+		.enter()
+		.append('text')
+		.attr('x', function(d) {
+			return logScale(d);
+		})
+		.text(function(d) {
+			return d;
+		});
+
+
+	// ---- 4. scaleTime ------------------------------------
+	var timeScale = d3.scaleTime()
+	  .domain([new Date(2016, 0, 1), new Date(2017, 0, 1)])
+		.range([0, 550]);
+
+	var myDataTime = [new Date(2016, 0, 1), new Date(2016, 2, 16), new Date(2016, 4, 22), new Date(2017, 0, 7)];
+
+	d3.select('#wrapper4')
+		.selectAll('circle')
+		.data(myDataTime)
+		.enter()
+		.append('circle')
+		.attr('r', 2)
+		.attr('cy', 8)
+		.attr('cx', function(d) {
+			return timeScale(d);
+		});
+
+	d3.select('#wrapper4')
+		.selectAll('text')
+		.data(myDataTime)
+		.enter()
+		.append('text')
+		.attr('x', function(d) {
+			return timeScale(d);
+		})
+		.text(function(d) {
+			return d.toDateString();
+		});
+
+	// ---- 5. scaleSequential ------------------------------------
+	// more on sequential color interpolator, see the d3_scales_color.html
+	var sequentialScale = d3.scaleSequential()
+		.domain([0, 100])
+		.interpolator(d3.interpolateRainbow);
+
+	var myDataColor = d3.range(0, 100);
+
+	d3.select('#wrapper5')
+		.selectAll('rect')
+		.data(myDataColor)
+		.enter()
+		.append('rect')
+		.attr('x', function(d) {
+			return linearScale(d);
+		})
+		.attr('width', 5)
+		.attr('height', 30)
+		.style('fill', function(d) {
+			return sequentialScale(d);
+		});
+
+		/* Also look up these functions that are commonly used in conjunction with d3 scales:
+		* invert()
+		* clamp()
+		* nice()
+		* copy()
+		*/
+
+
+
+
+
+
+
+	/*
+  		*** B. Scales with continuous input and DISCRETE output ***
+  */
+  // ---- 1. scaleQuantize ------------------------------------
+  var quantizeScale = d3.scaleQuantize()
+		.domain([0, 100])
+	  .range(['aqua', 'lightgreen', 'salmon', 'pink']);
+
+	d3.select('#wrapper6')
+		.selectAll('rect')
+		.data(myDataColor)
+		.enter()
+		.append('rect')
+		.attr('x', function(d) {
+			return linearScale(d);
+		})
+		.attr('width', 5)
+		.attr('height', 30)
+		.style('fill', function(d) {
+			return quantizeScale(d);
+		});
+
+  // ---- 2. scaleQuantile ------------------------------------
+  var myDataQuantile = [0, 5, 7, 10, 20, 30, 35, 40, 60, 62, 65, 70, 80, 90, 100];
+
+	var quantileScale = d3.scaleQuantile()
+		.domain(myDataQuantile)
+		.range(['orange', 'purple', 'red']);
+
+	d3.select('#wrapper7')
+		.selectAll('circle')
+		.data(myDataQuantile)
+		.enter()
+		.append('circle')
+		.attr('r', 5)
+		.attr('cx', function(d) {
+			return linearScale(d);
+		})
+		.style('fill', function(d) {
+			return quantileScale(d);
+		});
+
+  // ---- 3. scaleThreshold ------------------------------------
+  var linearScale2 = d3.scaleLinear()
+		.domain([-10, 110])
+		.range([0, 600]);
+
+	var thresholdScale = d3.scaleThreshold()
+		.domain([0, 50, 100])
+		.range(['#ccc', 'lightblue', 'orange', '#ccc']);
+
+	var myDataThreshold = d3.range(-10, 110, 2);
+
+	d3.select('#wrapper8')
+		.selectAll('rect')
+		.data(myDataThreshold)
+		.enter()
+		.append('rect')
+		.attr('x', function(d) {
+			return linearScale2(d);
+		})
+		.attr('width', 9)
+		.attr('height', 30)
+		.style('fill', function(d) {
+			return thresholdScale(d);
+		});
+
+
+
+
+
+
+
+	/*
+  		*** C. Scales with discrete input and discrete output ***
+  */
+  // ---- 1. scaleOrdinal ------------------------------------
+	// https://github.com/d3/d3-scale#ordinal-scales
+	var monthData = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
+
+	var linearScale = d3.scaleLinear()
+		.domain([0, 11])
+		.range([0, 600]);
+
+	var ordinalScale = d3.scaleOrdinal()
+		.domain(monthData)
+		.range(['black', '#ccc', '#ccc']);
+
+	d3.select('#wrapper9')
+		.selectAll('text')
+		.data(monthData)
+		.enter()
+		.append('text')
+		.attr('x', function(d, i) {
+			return linearScale(i);
+		})
+		.text(function(d) {
+			return d;
+		})
+		.style('fill', function(d) {
+			return ordinalScale(d);
+		});
+
+	// ---- 2. scaleBand ------------------------------------
+	var myDataX = [
+		{day : 'Mon', value: 5},
+		{day : 'Tue', value: 40},
+		{day : 'Wed', value: 30},
+		{day : 'Thu', value: 70},
+		{day : 'Fri', value: 90}
+	];
+
+	var bandScale = d3.scaleBand()
+		.domain(['Mon', 'Tue', 'Wed', 'Thu', 'Fri'])
+		.range([0, 200])
+		.paddingInner(0.05);
+
+	d3.select('#wrapper10')
+		.selectAll('rect')
+		.data(myDataX)
+		.enter()
+		.append('rect')
+		.attr('x', function(d) {
+			return bandScale(d.day);
+		})
+		.attr('width', bandScale.bandwidth())
+		.attr('height', function(d) {
+			return d.value;
+		});
+
+
+	// ---- 3. scalePoint ------------------------------------
+	var pointScale = d3.scalePoint()
+		.domain(['Mon', 'Tue', 'Wed', 'Thu', 'Fri'])
+		.range([0, 600]);
+
+	d3.select('#wrapper11')
+		.selectAll('circle')
+		.data(myDataX)
+		.enter()
+		.append('circle')
+		.attr('cx', function(d) {
+			return pointScale(d.day);
+		})
+		.attr('r', 4);
+
+	</script>
+
+	</body>
+</html>

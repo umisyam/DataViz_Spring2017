@@ -1,0 +1,93 @@
+<!-- From: https://bl.ocks.org/d3indepth -->
+
+<!DOCTYPE html>
+<meta charset="utf-8">
+<head>
+  <title>Sequential scale interpolators</title>
+</head>
+
+<style>
+body {
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 12px;
+  color: #333;
+}
+text {
+  fill: #777;
+}
+</style>
+
+<body>
+  <svg width="700" height="580">
+    <g id="wrapper" transform="translate(40, 40)">
+    </g>
+  </svg>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.2.2/d3.min.js"></script>
+
+  <script>
+  var linearScale = d3.scaleLinear()
+    .domain([0, 100])
+    .range([0, 600]);
+
+  var sequentialScale = d3.scaleSequential()
+    .domain([0, 100]);
+
+  var interpolators = [
+    'interpolateViridis',
+    'interpolateInferno',
+    'interpolateMagma',
+    'interpolatePlasma',
+    'interpolateWarm',
+    'interpolateCool',
+    'interpolateRainbow',
+    'interpolateCubehelixDefault'
+  ];
+
+  var myData = d3.range(0, 100, 2);
+  // var myData = [0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100];
+
+  function dots(d) {
+    sequentialScale
+      .interpolator(d3[d]);
+
+    d3.select(this)
+      .append('text')
+      .attr('y', -20)
+      .text(d);
+
+    d3.select(this)
+      .selectAll('rect')
+      .data(myData)
+      .enter()
+      .append('rect')
+      .attr('x', function(d) {
+        return linearScale(d);
+      })
+      // .attr('r',10)
+      .attr('width', 12)
+      .attr('height', 30)
+      .style('fill', function(d) {
+        return sequentialScale(d);
+      });
+  }
+
+  d3.select('#wrapper')
+    .selectAll('g.interpolator')
+    .data(interpolators)
+    .enter()
+    .append('g')
+    .classed('interpolator', true)
+    .attr('transform', function(d, i) {
+      return 'translate(0, ' + (i * 70) + ')';
+    })
+    .each(dots);
+
+  </script>
+</body>
+</html>
+
+<!-- A more advanced examples here: 
+D3 4.0 Sequential Scales Explorer
+https://bl.ocks.org/curran/3094b37e63b918bab0a06787e161607b-->
+

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Simple D3 enter, exit, update</title>
+		<script type="text/javascript" src="https://d3js.org/d3.v4.min.js"></script>
+		<script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+		<style>
+			body {
+				font-family: "Helvetica Neue", Helvetica, sans-serif;
+				font-size: 14px;
+			}
+			.person {
+				height: 40px;
+				position: relative;
+			}
+			.person .label {
+				width: 90px;
+				text-align: right;
+				margin-top: 10px;
+			}
+			.person .bar {
+				height: 36px;
+				background-color: salmon;
+				position: absolute;
+				left: 100px;
+				padding: 0px 0 0 5px;
+				color: #fff;
+				font-size: 20px;
+				line-height: 35px;
+				font-weight: 100;
+			}
+			.person div {
+				display: inline-block;
+			}
+		</style>
+	</head>
+	<body>
+
+		<h1>Simple D3 enter, exit, update - Part 1: Make the bar chart</h1>
+		<div class="menu">
+			<button id="btn-age">Update age</button>
+			<button id="btn-add">Add person</button>
+			<button id="btn-remove">Remove person</button>
+		</div>
+		<div id="container"></div>
+
+		<script>
+		var barWidth = 600;
+		var barScale = d3.scaleLinear().domain([0, 100]).range([0, barWidth]);
+		var names = ['Alamo', 'Beatrice', 'Chris', 'Diane', 'Eve', 'Frank', 'Georgia', 'Henry', 'Isaac', 'Jim'];
+
+		// From Mozilla Developer Network documentation https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random
+		// Returns a random integer between min (included) and max (included)
+		function getRandomInt(min, max) {
+		  return Math.floor(Math.random() * (max - min + 1)) + min;
+		}
+
+		// ---------- Load JSON file
+		d3.json("test_data.json", function(err, data) {
+			if (err) { console.log("Error loading file ", err); }
+	    console.log(data);
+
+			function updateBars(data) {
+				var u = d3.select('#container')
+					.selectAll('.person')
+					.data(data, function(d) {
+						return d.name;
+					});
+
+				var eachRow = u.enter()
+					.append('div')
+					.classed('person', true);
+
+				eachRow.append('div')
+					.classed('label', true)
+					.text(function(d) {
+						return d.name;
+					});
+
+				eachRow.append('div')
+					.classed('bar', true);
+
+				eachRow
+					.merge(u)
+					.select('.bar')
+					.transition()
+					.style('width', function(d) {
+						return barScale(d.age) + 'px';
+					})
+					.text(function(d){
+						return d.age;
+					});
+				u.exit().remove();
+			}
+
+			function updateAge() {
+				data.forEach(function(d){
+					d.age = getRandomInt(19, 60);
+				});
+				updateBars(data);
+			}
+
+			function addPerson() {
+				if(data.length === 10) return;
+
+				data.push({
+					name: names[data.length],
+					age: getRandomInt(19, 60)
+				});
+				updateBars(data);
+			}
+
+			function removePerson() {
+				if(data.length === 10) return;
+				data.pop();
+				updateBars(data);
+			}
+
+			// ------------------- Main goes here
+			$('#btn-age').on('click', updateAge);
+			$('#btn-add').on('click', addPerson);
+			$('#btn-remove').on('click', removePerson);
+
+			updateBars(data);
+
+		});
+
+		</script>
+	</body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>D3 Tabulate</title>
+		<script type="text/javascript" src="https://d3js.org/d3.v4.min.js"></script>
+		<script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+	</head>
+	<body>
+
+		<h1>Loading CSV and using the tabulate function</h1>
+		<div id="table"></div>
+
+		<script>
+		// ---------- Load CSV file
+		d3.csv("test_data.csv", function(err, data) {
+			if (err) { console.log("Error loading file ", err); }
+	    console.log(data);
+
+	    $("p.csvdata").text(JSON.stringify(data));
+
+		    // 1st arg = the data source itself,
+		    // 2nd arg = column header in your data that will be in the table - remember this is case-sensitive
+			// 3rd arg = the DOM container of the table
+			var resultTable = tabulate(data,
+				                        ["name", "age", "title", ],
+				                        "#table");
+
+			// You can also make the table a bit fancier by adding sort capability. Create your own sorting function, OR, the easiest way is probably: Stupid Table jQuery plugin http://joequery.github.io/Stupid-Table-Plugin/
+
+			/*
+				--------------------------------------------------
+				Below code by Shawn Allen (@shawnbot) repro'd in d3noob's book,
+				http://www.d3noob.org/2013/02/add-html-table-to-your-d3js-graph.html,
+				but with minor modification by Lynn Cherny @arnicas
+			*/
+			function tabulate(data, columns, id) {
+			    var table = d3.select(id).append("table"),
+			        thead = table.append("thead"),
+			        tbody = table.append("tbody");
+
+			    // append the header row
+			    thead.append("tr")
+			        .selectAll("th")
+			        .data(columns)
+			        .enter()
+			        .append("th")
+			            .text(function(column) { return column; });
+
+			    // create a row for each object in the data
+			    var rows = tbody.selectAll("tr")
+			        .data(data)
+			        .enter()
+			        .append("tr");
+
+			    // create a cell in each row for each column
+			    // At this point, the rows have data associated.
+			    // So the data function accesses it.
+			    var cells = rows.selectAll("td")
+			        .data(function(row) {
+			            // he does it this way to guarantee you only use the
+			            // values for the columns you provide.
+			            return columns.map(function(column) {
+			                // return a new object with a value set to the row's column value.
+			                return { value: row[column] };
+			            });
+			        })
+			        .enter()
+			        .append("td")
+			        .text(function(d) { return d.value; });
+			    return table;
+			}
+		});
+
+		</script>
+
+	</body>
+</html>

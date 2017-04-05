@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Andrew",
+    "age": 39,
+    "title": "Deputy Editor"
+  },
+  {
+    "name": "Antonio",
+    "age": 37,
+    "title": "Art Director"
+  },
+  {
+    "name": "Meghan",
+    "age": 42,
+    "title": "Senior Editor"
+  },
+  {
+    "name": "Andy",
+    "age": 19,
+    "title": "Production Intern"
+  },
+  {
+    "name": "Taylor",
+    "age": 29,
+    "title": "Freelance Reporter"
+  }
+]

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Simple D3 enter, exit, update</title>
+		<script type="text/javascript" src="https://d3js.org/d3.v4.min.js"></script>
+		<script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+		<style>
+			body {
+				font-family: "Helvetica Neue", Helvetica, sans-serif;
+				font-size: 14px;
+			}
+			.person {
+				height: 40px;
+				position: relative;
+			}
+			.person .label {
+				width: 90px;
+				text-align: right;
+				margin-top: 10px;
+			}
+			.person .bar {
+				height: 36px;
+				background-color: salmon;
+				position: absolute;
+				left: 100px;
+				padding: 0px 0 0 5px;
+				color: #fff;
+				font-size: 20px;
+				line-height: 35px;
+				font-weight: 100;
+			}
+			.person div {
+				display: inline-block;
+			}
+		</style>
+	</head>
+	<body>
+
+		<h1>Simple D3 enter, exit, update - Part 1: Make the bar chart</h1>
+		<div id="container"></div>
+
+		<script>
+		var barWidth = 600;
+		var barScale = d3.scaleLinear().domain([0, 100]).range([0, barWidth]);
+
+		// ---------- Load JSON file
+		d3.json("test_data.json", function(err, data) {
+			if (err) { console.log("Error loading file ", err); }
+	    console.log(data);
+
+			var u = d3.select('#container')
+				.selectAll('.person')
+				.data(data, function(d) {
+					return d.name;
+				});
+
+			var eachRow = u.enter()
+				.append('div')
+				.classed('person', true);
+
+			eachRow.append('div')
+				.classed('label', true)
+				.text(function(d) {
+					return d.name;
+				});
+
+			eachRow.append('div')
+				.classed('bar', true);
+
+			eachRow.select('.bar')
+				.style('width', function(d) {
+					return barScale(d.age) + 'px';
+				})
+				.text(function(d){
+					return d.age;
+				});
+
+		});
+
+		</script>
+	</body>
+</html>

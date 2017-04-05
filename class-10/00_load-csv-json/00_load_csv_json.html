@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Loading External Data with D3</title>
+		<script type="text/javascript" src="https://d3js.org/d3.v4.min.js"></script>
+		<script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+	</head>
+	<body>
+
+		<h1>Loading CSV and JSON with D3.</h1>
+		<p>Open up your console too!</p>
+
+		<h2>CSV result</h2>
+		<p class="csvdata"></p>
+		<h2>JSON result</h2>
+		<p class="jsondata"></p>
+
+		<script>
+		// ---------- Load CSV file
+		d3.csv("test_data.csv", function(err, data1) {
+			if (err) { console.log("Error loading file ", err); }
+
+		    console.log("The first file is csv...")
+		    console.log(data1);
+
+		    $("p.csvdata").text(JSON.stringify(data1));
+
+		    // A loop that will add p elements for each item in the data set manually.
+		    // This is not the real D3 'way', in D3 you will eventually use .enter() to loop within your data.
+		    data1.forEach(function (d) {
+		        $("p.csvdata").append("<p>" + d.name + " " + d.age + " " + d.title + "</p>");
+		    });
+		});
+
+
+		// ---------- Load JSON file
+		d3.json("test_data.json", function(err, data2) {
+			if (err) { console.log("Error loading file ", err); }
+
+		    console.log("The second file is json!")
+		    console.log(data2);
+
+		    $("p.jsondata").text(JSON.stringify(data2));
+
+		    // same goes...
+		    data2.forEach(function (d) {
+		        $("p.jsondata").append("<p>" + d.name + " " + d.age + " " + d.title + "</p>");
+		    });
+		});
+
+		// Notice that the objects look the same. d3.csv() parses rows as objects.
+		// Also this is a good point to talk about scope and breakpoints.
+		</script>
+
+	</body>
+</html>
