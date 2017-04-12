@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Scrollytelling</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div id="container">
+		<h1>Crop Production between G-20 Countries from 1995-2015</h1>
+
+	  <p>Crop production depends on the availability of arable land and is affected in particular by yields, macroeconomic uncertainty, as well as consumption patterns; it also has a great incidence on agricultural commodities' prices. The importance of crop production is related to harvested areas, returns per hectare (yields) and quantities produced. Crop yields are the harvested production per unit of harvested area for crop products. In most of the cases yield data are not recorded, but are obtained by dividing the production data by the data on area harvested. The actual yield that is captured on farm depends on several factors such as the crop's genetic potential, the amount of sunlight, water and nutrients absorbed by the crop, the presence of weeds and pests. This indicator is presented for wheat, maize, rice and soybean. Crop production is measured in tonnes per hectare, in thousand hectares and thousand tonnes.
+		</p>
+
+    <div class="btn-group" role="group">
+        <button type="button" id="rice">Rice</button>
+        <button type="button" id="wheat">Wheat</button>
+        <button type="button" id="soybean">Soybean</button>
+        <button type="button" id="maize">Maize</button>
+    </div>
+
+    <div id="chart"></div>
+
+    <p><a href="https://data.oecd.org/agroutput/crop-production.htm">Data source</a></p>
+  </div>
+
+	<script src="js/d3v4+jetpack.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>

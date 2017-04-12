@@ -1,0 +1,117 @@
+body {
+  background-color: white;
+  font-family: "Helvetica Neue",Helvetica, Arial, sans-serif;
+}
+#container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+h1 {
+  max-width: 600px;
+  margin: 20px auto;
+  font-size: 20px;
+}
+p {
+  font-size: 14px;
+  margin: 20px auto;
+  line-height: 1.4;
+  -webkit-font-smoothing: antialiased;
+  max-width: 600px;
+}
+/* BUTTON */
+.btn-group {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+button.selected {
+  background: salmon;
+  opacity: 0.8;
+}
+
+.button {
+  border: 0;
+  color: #fff;
+  font-size: 14px;
+  padding: 5px 10px 5px 10px;
+  background: #333;
+  outline: none;
+}
+
+.button:hover {
+  background: #666;
+  color: #fff;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: grey;
+  stroke-width: 0.5px;
+}
+
+.line {
+  fill: none;
+}
+
+.axis text {
+  font-family: sans-serif;
+  font-size: 10px;
+  fill:dimgrey;
+}
+
+text {
+  font-family: sans-serif;
+  font-size: 10px;
+}
+
+.textshow {
+  fill: blue;
+  opacity: 1;
+}
+
+.texthide {
+  fill: blue;
+  opacity: 0;
+}
+
+.circle {
+  fill: red;
+  stroke:blue;
+  stroke-width:3px;
+}
+
+.mytooltip{
+  position:absolute;
+  z-index: 10;
+}
+
+.mytooltip p {
+  background:#333;
+  border:0;
+  padding:6px;
+  max-width: 180px;
+  margin-left: 5px;
+  color:#ddd;
+}
+
+.focused{
+  stroke:blue;
+  stroke-opacity:1;
+  stroke-width:2.5px;
+}
+
+.unfocused{
+  stroke: gray;
+  stroke-width: 1.5px;
+  stroke-opacity:0.7;
+}
+
+
+#highlight{
+  font: 15px sans-serif;
+  fill: blue;
+  opacity: 1;
+  font-weight: bold;
+
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Roboto:900' rel='stylesheet' type='text/css'>
+	<title>Simple Line Chart</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+	<h1><span style="color:#D11F3A">Audi</span> is slowly catching up with <span style="color:#418FC6">BMW</span> in the U.S.</h1>
+	<div id="container">
+		<p>As is shown in the graphics below, Audi’s core models are majorly in their later years of the generation lifecycle, except for the A3. This can be a reason that A4 sells unsatisfactorily. The all new A4 would be available next year, so we expect to see an increase on its sales. The Q7 is also going to be refreshed in 2016. However, it’s sales even increased this year, though it’s still behind BMW’s X5.</p>
+
+
+		<div id='sections'>
+	    <div>
+				<h3 class="title">This is header section 1</h3>
+	      <p>Nothing's happening at this point. Nothing's happening at this point. Nothing's happening at this point.</p>
+	    </div>
+	    <div>
+				<h3 class="title">This is header section 2</h3>
+	      <p>Should show some graphic at this point? Should show some graphic at this point? Should show some graphic at this point?</p>
+	    </div>
+			<div>
+				<h3 class="title">This is header section 3</h3>
+	      <p>Maybe something happened in here... Maybe something happened in here... Maybe something happened in here...</p>
+	    </div>
+			<div>
+				<h3 class="title">This is header section 4</h3>
+	      <p>Something definitely needs to move. Something definitely needs to move. Something definitely needs to move.</p>
+	    </div>
+	  </div>
+
+		<div id="graph">
+			<div class="lineChartTitle">Audi & BMW Sales (thousand vehicles, 2011-2015)</div>
+		</div>
+
+		<!-- <div id="btn-group">
+			<button id="group1" type="button" class="selected">A3 vs. 1/2 Series</button>
+			<button id="group2" type="button">A4 vs. 3 Series</button>
+			<button id="group3" type="button">Q5 vs. X3</button>
+			<button id="group4" type="button">Q7 vs. X5</button>
+		</div> -->
+
+		<footer>
+			<p class="source">
+				<strong>Source: </strong>
+				<a href="https://www.audiusa.com/newsroom/news">Audi U.S. Press Release 2015</a> and
+				<a href="https://www.press.bmwgroup.com">BMW Group U.S. Reports 2015</a>
+			</p>
+		</footer>
+	</div>
+
+</body>
+
+<script src="js/d3v4+jetpack.js"></script>
+<script src="js/graph-scroll.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script src="js/main.js"></script>
+
+</html>

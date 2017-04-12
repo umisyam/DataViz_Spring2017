@@ -1,0 +1,53 @@
+body{
+  width: 960px;
+  margin: 0 auto;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#container {
+  position: relative;
+  width: 100%;
+  overflow: auto;
+}
+
+#sections {
+  width: 340px;
+  float: left;
+}
+
+#sections > div {
+  background: white;
+  opacity: .2;
+  margin-bottom:40vh;
+  margin-top: 20vh;
+}
+
+#sections > div.graph-scroll-active {
+  opacity: 1;
+}
+
+#graph {
+  float: left;
+  margin-left: 40px;
+  margin-top: 50px;
+}
+
+#graph.graph-scroll-fixed {
+  position: fixed;
+  top: 0px;
+  margin-left: 380px;
+}
+
+#graph.graph-scroll-below {
+  position: absolute;
+  bottom: 0px;
+  margin-left: 380px;
+}
+
+h1{
+  margin: 50px;
+}
+
+h1, h3{
+  text-align: center;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Scrollytelling</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<h1> Give it a good, nice title (always!)</h1>
+
+  <p>We're using <a href="https://github.com/1wheel/graph-scroll">graph-scroll</a> library by Adam Pearce (this is probably the simplest for d3-related scrolling),
+		but there are plenty other scroller tutorial, e.g. <a href="https://github.com/mkfreeman/scrolling">this</a>
+		and <a href="http://vallandingham.me/scroller.htmlhttps://pudding.cool/process/how-to-implement-scrollytelling/">this</a>.
+		Also, this article is super helpful: <a href="https://pudding.cool/process/how-to-implement-scrollytelling/">https://pudding.cool/process/how-to-implement-scrollytelling/</a>
+	</p>
+
+	<div id='container'>
+	  <div id='sections'>
+	    <div>
+	      <h3 class="title">This is header section 1</h3>
+	      <p>Nothing's happening at this point. Nothing's happening at this point. Nothing's happening at this point.</p>
+	    </div>
+	    <div>
+				<h3 class="title">This is header section 2</h3>
+	      <p>Should show some graphic at this point? Should show some graphic at this point? Should show some graphic at this point?</p>
+	    </div>
+			<div>
+				<h3 class="title">This is header section 3</h3>
+	      <p>Maybe something happened in here... Maybe something happened in here... Maybe something happened in here...</p>
+	    </div>
+			<div>
+				<h3 class="title">This is header section 4</h3>
+	      <p>Something definitely needs to move. Something definitely needs to move. Something definitely needs to move.</p>
+	    </div>
+			<div>
+				<h3 class="title">This is header section 5</h3>
+	      <p>What else can be moved? What else can be moved? What else can be moved?</p>
+	    </div>
+	  </div>
+
+	  <div id='graph'>
+	  </div>
+	</div>
+
+
+	<h3 id='source'><a href='https://github.com/1wheel/graph-scroll'>graph-scroll.js on Github</a></h3>
+
+	<script src="js/d3v4+jetpack.js"></script>
+	<script src="js/graph-scroll.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,179 @@
+body{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    line-height: 1.4;
+}
+h1{
+    text-align: center;
+    margin: 40px;
+}
+p{
+  margin: 0 auto;
+  max-width: 600px;
+  margin-bottom: 30px;
+}
+footer {
+  clear:both;
+  margin: 50px auto;
+}
+p.source {
+  font-size: 11px;
+}
+/*#container{
+    margin: 0 auto;
+    max-width: 600px;
+}*/
+#container {
+  position: relative;
+  width: 100%;
+  overflow: auto;
+}
+
+#sections {
+  width: 340px;
+  float: left;
+}
+
+#sections > div {
+  background: white;
+  opacity: .2;
+  margin-bottom:40vh;
+  margin-top: 20vh;
+}
+
+#sections > div.graph-scroll-active {
+  opacity: 1;
+}
+
+#graph {
+  float: left;
+  margin-left: 40px;
+  margin-top: 50px;
+}
+
+#graph.graph-scroll-fixed {
+  position: fixed;
+  top: 0px;
+  margin-left: 380px;
+}
+
+#graph.graph-scroll-below {
+  position: absolute;
+  bottom: 0px;
+  margin-left: 380px;
+}
+
+
+
+a:link, a:visited{
+    text-decoration: none;
+    color: #418FC6;
+}
+#btn-group {
+  margin: 20px auto 50px auto;
+}
+.lineChartTitle{
+  margin-bottom: 20px;
+  color: #000;
+  font-weight: bold;
+}
+.axis text{
+    fill: #444;
+    font-size: 14px;
+}
+.y.axis path{
+    fill: none;
+    stroke: none;
+    shape-rendering: crispEdges;
+}
+.axis line {
+    fill: none;
+    stroke: #999;
+    shape-rendering: crispEdges;
+}
+
+.chart .x.axis path{
+    fill: none;
+    stroke: none;
+}
+
+path.line{
+    fill: none;
+    stroke-width: 1.5px;
+    transition: 0.1s;
+}
+g.bmw path.line{
+    stroke: #418FC6;
+}
+g.audi path.line{
+    stroke: #E3314C;
+}
+g.bmw circle{
+    fill: #418FC6;
+    transition: 0.1s;
+}
+g.audi circle{
+    fill: #E3314C;
+    transition: 0.1s;
+}
+g.line{
+    opacity: 0.8;
+}
+g.line.unfocused{
+    opacity: 0.5;
+}
+g.line.focused{
+    opacity: 1;
+}
+g.line.unfocused path.line{
+    stroke-width: 1px;
+}
+g.line.focused path.line{
+    stroke-width: 3px;
+}
+g.line text.label{
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+}
+g.line.bmw text{
+    fill: #418FC6;
+}
+g.line.audi text{
+    fill: #E3314C;
+}
+g.line text.notDisp{
+    display: none;
+}
+text.dotVal{
+    font-size: 12px;
+    font-weight: bold;
+}
+.lineChart .y .tick line{
+    stroke-dasharray: 2,5;
+}
+.lineChart .x.axis path{
+    fill: none;
+    stroke: #999;
+}
+
+button{
+    background: #fff;
+    color: #E3314C;
+    border: 1px solid #E3314C;
+    padding: 7px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 4px;
+    outline: none;
+    margin-right: 10px;
+    font-size: 12px;
+}
+button:hover{
+    background: #ffcccc;
+    cursor: pointer;
+}
+button.selected{
+    background: #E3314C;
+    color: #fff;
+}
