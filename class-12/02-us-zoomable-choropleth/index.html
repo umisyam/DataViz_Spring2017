@@ -1,0 +1,135 @@
+<!-- Modified from Chris Given's Zoomable Choropleth v4 https://bl.ocks.org/cmgiven/d39ec773c4f063a463137748097ff52f -->
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <title>Zoomable Choropleth</title>
+
+    <style>
+      body { background: #333; }
+      path { stroke: #333; stroke-width: 1; }
+      path:hover { stroke-width: 3; }
+    </style>
+  </head>
+
+  <body>
+    <script src="//d3js.org/d3.v4.min.js"></script>
+    <script src="//d3js.org/topojson.v1.min.js"></script>
+    <script>
+      var width = 960
+      var height = 600
+      var padding = 20
+
+      var color = d3.scaleThreshold()
+          .domain([0.028, 0.038, 0.048, 0.058, 0.068, 0.078])
+          .range(['#4d9221', '#a1d76a', '#e6f5d0', '#f7f7f7', '#fde0ef', '#e9a3c9', '#c51b7d'])
+
+      var projection = d3.geoAlbers()
+          .precision(0)
+          .scale(height * 2).translate([width / 2, height / 2])
+
+      var path = d3.geoPath()
+          .projection(projection)
+
+      var svg = d3.select('body').append('svg')
+          .attr('width', width)
+          .attr('height', height)
+
+      d3.queue()
+          .defer(d3.csv, 'data.csv', function (d) {
+              return {
+                  id: +(d.state + d.county),
+                  state: d.state,
+                  county: d.county,
+                  unemployment: +d.unemployment
+              }
+          })
+          .defer(d3.json, 'us-states.json')
+          .defer(d3.json, 'us-counties.json')
+          .awaitAll(ready)
+
+      function ready(error, results) {
+          if (error) { throw error }
+
+          var data = results[0]
+          var states = topojson.feature(results[1], results[1].objects.states).features
+          var counties = topojson.feature(results[2], results[2].objects.counties).features
+
+          states.forEach(function (f) {
+              f.properties = data.find(function (d) { return d.id === f.id })
+          })
+
+          counties.forEach(function (f) {
+              f.properties = data.find(function (d) { return d.id === f.id }) || {}
+          })
+
+          var statePaths = svg.selectAll('.state')
+              .data(states)
+              .enter().append('path')
+              .attr('class', 'state')
+              .attr('d', path)
+              .style('fill', function (d) { return color(d.properties.unemployment) })
+              .on('click', function (d) { stateZoom(d.id) })
+
+          function usZoom() {
+              var t = d3.transition().duration(800)
+
+              projection.scale(height * 2).translate([width / 2, height / 2])
+
+              statePaths.transition(t)
+                  .attr('d', path)
+                  .style('fill', function (d) { return color(d.properties.unemployment) })
+
+              svg.selectAll('.county')
+                  .data([])
+                  .exit().transition(t)
+                  .attr('d', path)
+                  .style('opacity', 0)
+                  .remove()
+          }
+
+          function stateZoom(id) {
+              var state = states.find(function (d) { return d.id === id })
+              var stateCounties = counties.filter(function (d) {
+                  return d.id > id && d.id < id + 1000
+              })
+
+              var t = d3.transition().duration(800)
+
+              var countyPaths = svg.selectAll('.county')
+                  .data(stateCounties, function (d) { return d.id })
+
+              var enterCountyPaths = countyPaths.enter().append('path')
+                  .attr('class', 'county')
+                  .attr('d', path)
+                  .style('fill', function (d) { return color(d.properties.unemployment) })
+                  .style('opacity', 0)
+                  .on('click', function () { usZoom() })
+
+              // So in d3v3 before this fitExtent() exist, we need to compute the boundaries manually,
+              // something like https://bl.ocks.org/mbostock/4699541 'Zoom to Bounding Box' example
+              // Now in v4, it's so much simpler! :o
+              projection.fitExtent(
+                  [[padding, padding], [width - padding, height - padding]],
+                  state
+              )
+
+              statePaths.transition(t)
+                  .attr('d', path)
+                  .style('fill', '#444')
+
+              enterCountyPaths.transition(t)
+                  .attr('d', path)
+                  .style('opacity', 1)
+
+              countyPaths.exit().transition(t)
+                  .attr('d', path)
+                  .style('opacity', 0)
+                  .remove()
+          }
+      }
+
+    </script>
+  </body>
+</html>

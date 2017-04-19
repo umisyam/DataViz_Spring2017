@@ -1,0 +1,108 @@
+<!-- modified from Mike Bostock's Choropleth v4 (using Scale Threshold) https://bl.ocks.org/mbostock/4060606 -->
+<!-- See the v3 (using Scale Quantile!!) too: https://bl.ocks.org/mbostock/8ca036b3505121279daf -->
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Choropleth v4 with Legend</title>
+
+  <style>
+  .counties {
+    fill: none;
+  }
+
+  .states {
+    fill: none;
+    stroke: #fff;
+    stroke-linejoin: round;
+  }
+  </style>
+</head>
+
+<body>
+  <div id="map"></div>
+  <script src="https://d3js.org/d3.v4.min.js"></script>
+  <script src="https://d3js.org/d3-selection-multi.v1.min.js"></script>
+  <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+  <script src="https://d3js.org/topojson.v2.min.js"></script>
+
+  <script type="text/javascript">
+    var width = 960;
+    var height = 600;
+
+    var svg = d3.select("#map").append("svg")
+        .attrs({"width": width, "height": height});
+
+    var path = d3.geoPath();
+    var unemployment = d3.map();
+
+    var x = d3.scaleLinear()
+        .domain([1, 10])
+        .rangeRound([600, 860]);
+
+    var color = d3.scaleThreshold()
+        .domain(d3.range(2, 10))
+        .range(d3.schemeBlues[9]);
+
+    d3.queue()
+        .defer(d3.json, "https://d3js.org/us-10m.v1.json")  // https://github.com/topojson/us-atlas
+        .defer(d3.tsv, "unemployment.tsv", function(d) { unemployment.set(d.id, +d.rate); })
+        .await(ready);
+
+    function ready(error, us) {
+      if (error) throw error;
+      drawLegend();
+
+      svg.append("g")
+          .attr("class", "counties")
+        .selectAll("path")
+        .data(topojson.feature(us, us.objects.counties).features)
+        .enter().append("path")
+          .attr("fill", function(d) { return color(d.rate = unemployment.get(d.id)); })
+          .attr("d", path)
+        .append("title")
+          .text(function(d) { return d.rate + "%"; });
+
+      svg.append("path")
+          .datum(topojson.mesh(us, us.objects.states, function(a, b) { return a !== b; }))
+          .attr("class", "states")
+          .attr("d", path);
+    }
+
+    function drawLegend() {
+      var g = svg.append("g")
+          .attr("class", "key")
+          .attr("transform", "translate(0,40)");
+      g.selectAll("rect")
+        .data(color.range().map(function(d) {
+            d = color.invertExtent(d);
+            if (d[0] == null) d[0] = x.domain()[0];
+            if (d[1] == null) d[1] = x.domain()[1];
+            return d;
+          }))
+        .enter().append("rect")
+          .attr("height", 8)
+          .attr("x", function(d) { return x(d[0]); })
+          .attr("width", function(d) { return x(d[1]) - x(d[0]); })
+          .attr("fill", function(d) { return color(d[0]); });
+
+      g.append("text")
+          .attr("class", "caption")
+          .attr("x", x.range()[0])
+          .attr("y", -6)
+          .attr("fill", "#000")
+          .attr("text-anchor", "start")
+          .attr("font-weight", "bold")
+          .text("Unemployment rate");
+
+      g.call(d3.axisBottom(x)
+          .tickSize(13)
+          .tickFormat(function(x, i) { return i ? x : x + "%"; })
+          .tickValues(color.domain()))
+        .select(".domain")
+          .remove();
+    }
+
+  </script>
+</body>
+</html>

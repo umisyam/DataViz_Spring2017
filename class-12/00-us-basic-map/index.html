@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+  <title>Choropleth v4 Empty</title>
+
+	<style>
+	.states :hover {
+	  fill: red;
+	}
+
+	.state-borders {
+	  fill: none;
+	  stroke: #fff;
+	  stroke-width: 0.5px;
+	  stroke-linejoin: round;
+	  stroke-linecap: round;
+	  pointer-events: none;
+	}
+	</style>
+</head>
+
+<body>
+	<div id="map"></div>
+  <script src="https://d3js.org/d3.v4.min.js"></script>
+  <script src="https://d3js.org/d3-selection-multi.v1.min.js"></script>
+  <script src="https://d3js.org/topojson.v2.min.js"></script>
+
+	<script type="text/javascript">
+	var width = 960;
+  var height = 600;
+
+	var svg = d3.select("#map").append("svg")
+			.attrs({"width": width, "height": height});
+
+	var path = d3.geoPath()
+
+	// https://github.com/topojson/us-atlas
+	d3.json("https://d3js.org/us-10m.v1.json", function(error, us) {
+	  if (error) throw error;
+
+	  svg.append("g")
+	      .attr("class", "states")
+	    .selectAll("path")
+	    .data(topojson.feature(us, us.objects.states).features)	// Read more on topojson.feature https://bost.ocks.org/mike/map/#styling-polygons
+	    .enter().append("path")
+	      .attr("d", path);
+
+	  svg.append("path")
+	      .attr("class", "state-borders")
+	      .attr("d", path(topojson.mesh(us, us.objects.states, function(a, b) { return a !== b; })));
+				// Explanation on why it's like this https://bost.ocks.org/mike/map/#displaying-boundaries
+	});
+
+	</script>
+</body>
+</html>
